@@ -1,0 +1,6 @@
+BOOL __stdcall DllEntryPoint(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved)
+{
+  if ( fdwReason == 1 )
+    sub_180014D80();
+  return sub_18001481C(hinstDLL, fdwReason, lpReserved);
+}

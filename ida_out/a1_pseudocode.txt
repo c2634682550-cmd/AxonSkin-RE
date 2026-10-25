@@ -1,0 +1,5054 @@
+// .a1 pseudocode, 13805 funcs, 490/500 decompiled
+
+
+// === sub_4407 @ 0x4407 ===
+void __fastcall sub_4407()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_4461 @ 0x4461 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_4461()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_4407();
+}
+
+
+// === sub_4475 @ 0x4475 ===
+void __fastcall sub_4475(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_4461();
+}
+
+
+// === sub_5162 @ 0x5162 ===
+void __fastcall sub_5162()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_51BC @ 0x51bc ===
+__int64 __fastcall sub_51BC(__int64 a1)
+{
+  __readeflags();
+  return sub_51D3(a1);
+}
+
+
+// === sub_51D3 @ 0x51d3 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_51D3()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_5162();
+}
+
+
+// === nullsub_1 @ 0x51ee ===
+void __fastcall nullsub_1(
+        __int64 a1,
+        __int64 a2,
+        __int64 a3,
+        __int64 a4,
+        __int64 a5,
+        __int64 a6,
+        __int64 a7,
+        __int64 a8,
+        __int64 a9,
+        __int64 a10,
+        __int64 a11,
+        __int64 a12,
+        __int64 a13,
+        __int64 a14,
+        __int64 a15,
+        __int64 a16,
+        __int64 a17,
+        __int64 a18,
+        __int64 a19,
+        __int64 a20,
+        __int64 a21,
+        __int64 a22,
+        __int64 a23,
+        __int64 a24,
+        __int64 a25,
+        __int64 a26,
+        __int64 a27,
+        __int64 a28,
+        __int64 a29,
+        __int64 a30,
+        __int64 a31,
+        __int64 a32,
+        __int64 a33,
+        __int64 a34,
+        __int64 a35,
+        __int64 a36,
+        __int64 a37,
+        __int64 a38,
+        __int64 a39,
+        __int64 a40,
+        __int64 a41,
+        __int64 a42,
+        __int64 a43,
+        __int64 a44,
+        __int64 a45,
+        __int64 a46,
+        __int64 a47,
+        __int64 a48,
+        __int64 a49,
+        __int64 a50,
+        __int64 a51,
+        __int64 a52,
+        __int64 a53,
+        __int64 a54,
+        __int64 a55,
+        __int64 a56,
+        __int64 a57,
+        __int64 a58,
+        __int64 a59,
+        __int64 a60,
+        __int64 a61,
+        __int64 a62,
+        __int64 a63)
+{
+  __asm { retfq   0EA5Ch }
+}
+
+
+// === sub_7458 @ 0x7458 ===
+__int64 __fastcall sub_7458(__int64 a1)
+{
+  unsigned __int64 v2; // kr00_8
+
+  v2 = __readeflags();
+  __writeeflags(v2);
+  return sub_7506(a1);
+}
+
+
+// === sub_7506 @ 0x7506 ===
+void __fastcall sub_7506()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_7B6E @ 0x7b6e ===
+void sub_7B6E()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROL8__(0x68106AF8E1F42D66LL, 5), 57) + 0x65FBE5430C5EB845LL) - 0x4ECD3BBCBDBA2F74LL);
+}
+
+
+// === sub_7C52 @ 0x7c52 ===
+void __fastcall sub_7C52()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_7C83 @ 0x7c83 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_7C83()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_7C52();
+}
+
+
+// === sub_7CB5 @ 0x7cb5 ===
+void __fastcall sub_7CB5(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_7C83();
+}
+
+
+// === sub_86A7 @ 0x86a7 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_86A7()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_86BB();
+}
+
+
+// === sub_86BB @ 0x86bb ===
+void __fastcall sub_86BB()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_86CF @ 0x86cf ===
+__int64 __fastcall sub_86CF(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_86A7(a1);
+}
+
+
+// === sub_9EAB @ 0x9eab ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_9EAB()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_9F40();
+}
+
+
+// === sub_9F05 @ 0x9f05 ===
+__int64 __fastcall sub_9F05(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_9EAB(a1);
+}
+
+
+// === sub_9F40 @ 0x9f40 ===
+void __fastcall sub_9F40()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === nullsub_2 @ 0x9f75 ===
+__int64 nullsub_2()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_3 @ 0xa056 ===
+void nullsub_3()
+{
+  ;
+}
+
+
+// === sub_A226 @ 0xa226 ===
+void __fastcall sub_A226()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_A269 @ 0xa269 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_A269()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_A226();
+}
+
+
+// === sub_A2A6 @ 0xa2a6 ===
+void sub_A2A6()
+{
+  __readeflags();
+  sub_A269();
+}
+
+
+// === sub_ADEF @ 0xadef ===
+void __spoils<> sub_ADEF()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(0x73369C173A842C43LL - __ROL8__(~__ROR8__(__ROR8__(-__ROL8__(0x1615A84AC773369CLL, 11), 8), 8), 45))
+  + 0x69560D9D1F574813LL);
+}
+
+
+// === sub_B1B9 @ 0xb1b9 ===
+void __fastcall sub_B1B9()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_B1E1 @ 0xb1e1 ===
+void sub_B1E1()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_B1B9();
+}
+
+
+// === sub_BC5E @ 0xbc5e ===
+void __fastcall sub_BC5E()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_BC68 @ 0xbc68 ===
+__int64 __fastcall sub_BC68(int a1, int a2, int a3, __int64 a4, int a5, int a6, __int64 a7)
+{
+  int v7; // esp
+
+  *(_DWORD *)(a4 - 13) += v7;
+  return sub_BC73(a1, a2, a3, a4, a5, a6, a7);
+}
+
+
+// === sub_BC73 @ 0xbc73 ===
+__int64 __fastcall sub_BC73(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_BCBD(a1);
+}
+
+
+// === sub_BCBD @ 0xbcbd ===
+// positive sp value has been detected, the output may be wrong!
+void sub_BCBD()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_BC5E();
+}
+
+
+// === sub_BCC3 @ 0xbcc3 ===
+// positive sp value has been detected, the output may be wrong!
+long double __fastcall sub_BCC3(__int64 a1, __int64 a2, __int64 a3)
+{
+  unsigned __int64 v3; // rbp
+  long double v4; // fst7
+  long double result; // fst7
+  unsigned __int64 v6; // kr00_8
+  unsigned __int64 v7; // [rsp+8h] [rbp-8h] BYREF
+
+  *(_DWORD *)(a2 + 72) = __ROR4__(*(_DWORD *)(a2 + 72), 36);
+  __writeeflags(v7);
+  result = v4 - v4 - *(float *)(a3 + 2 * v3);
+  v7 = v3;
+  v6 = __readeflags();
+  __writeeflags(v6);
+  _InterlockedExchange64(
+    (volatile __int64 *)&v7,
+    *(_QWORD *)(__ROR8__(__ROR8__(__ROL8__(__ROL8__(__ROL8__(0xAD6D2A31644930B5LL, 32), 4) + 2LL, 48) - 1LL, 41), 63)
+              + 0x6CF4A52A7338C94ELL)
+  + 0x6C1A756DCCE6D541LL);
+  return result;
+}
+
+
+// === sub_C8D7 @ 0xc8d7 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_C8D7()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0xC939);
+}
+
+
+// === sub_C8EB @ 0xc8eb ===
+void __fastcall sub_C8EB(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_C8D7();
+}
+
+
+// === sub_CF81 @ 0xcf81 ===
+void __spoils<> sub_CF81()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROR8__(0x3605DDDE102C66B5LL, 33), 14) + 0x4443DFA877717587LL) + 0x6C1A756DCCE6D541LL);
+}
+
+
+// === nullsub_4 @ 0xd10a ===
+__int64 nullsub_4()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_D1E3 @ 0xd1e3 ===
+__int64 __fastcall sub_D1E3(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_D23F(a1);
+}
+
+
+// === sub_D23F @ 0xd23f ===
+// positive sp value has been detected, the output may be wrong!
+void sub_D23F()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0xD1F8);
+}
+
+
+// === sub_D26F @ 0xd26f ===
+void __fastcall sub_D26F()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_D766 @ 0xd766 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_D766()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_D7FC();
+}
+
+
+// === sub_D7B8 @ 0xd7b8 ===
+__int64 __fastcall sub_D7B8(__int64 a1)
+{
+  __readeflags();
+  return sub_D766(a1);
+}
+
+
+// === sub_D7FC @ 0xd7fc ===
+void __fastcall sub_D7FC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_DADD @ 0xdadd ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_DADD(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v3; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v3);
+  return ((__int64 (__fastcall *)(__int64, __int64))sub_DB44)(a1, a2);
+}
+
+
+// === sub_DB44 @ 0xdb44 ===
+void __fastcall sub_DB44()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_DB69 @ 0xdb69 ===
+__int64 __fastcall sub_DB69(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_DADD(a1, a2);
+}
+
+
+// === nullsub_5 @ 0xefbc ===
+__int64 nullsub_5()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_F007 @ 0xf007 ===
+__int64 __fastcall sub_F007(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_F026(a1);
+}
+
+
+// === sub_F01B @ 0xf01b ===
+void __fastcall sub_F01B()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_F026 @ 0xf026 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_F026()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_F01B();
+}
+
+
+// === sub_10101 @ 0x10101 ===
+__int64 __fastcall sub_10101(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v2; // kr00_8
+
+  v2 = __readeflags();
+  __writeeflags(v2);
+  return sub_101A8(a1, a2);
+}
+
+
+// === sub_101A8 @ 0x101a8 ===
+void __fastcall sub_101A8()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_10E69 @ 0x10e69 ===
+void __fastcall sub_10E69()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_10E94 @ 0x10e94 ===
+__int64 __fastcall sub_10E94(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_10ECF(a1);
+}
+
+
+// === sub_10ECF @ 0x10ecf ===
+// positive sp value has been detected, the output may be wrong!
+void sub_10ECF()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_10E69();
+}
+
+
+// === nullsub_6 @ 0x10f67 ===
+void nullsub_6()
+{
+  __asm { retfq }
+}
+
+
+// === sub_110B4 @ 0x110b4 ===
+void sub_110B4()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROR8__(__ROL8__(0xEEA8711CAFBCFBCCLL, 48), 46), 38) + 0x430433129C6ACCA6LL)
+  - 0x37AB1B98FA454443LL);
+}
+
+
+// === sub_11194 @ 0x11194 ===
+void __fastcall sub_11194()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_111BC @ 0x111bc ===
+// positive sp value has been detected, the output may be wrong!
+void sub_111BC()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_11194();
+}
+
+
+// === sub_111D0 @ 0x111d0 ===
+void __fastcall sub_111D0(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_111BC();
+}
+
+
+// === sub_115B2 @ 0x115b2 ===
+void sub_115B2()
+{
+  JUMPOUT(0x115BA);
+}
+
+
+// === sub_115CF @ 0x115cf ===
+void __fastcall sub_115CF()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_115DF @ 0x115df ===
+// positive sp value has been detected, the output may be wrong!
+void sub_115DF()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_115CF();
+}
+
+
+// === sub_1163A @ 0x1163a ===
+void __fastcall sub_1163A(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_115DF();
+}
+
+
+// === sub_11BDD @ 0x11bdd ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_11BDD()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_11C25();
+}
+
+
+// === sub_11C25 @ 0x11c25 ===
+void __fastcall sub_11C25()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_11C35 @ 0x11c35 ===
+__int64 __fastcall sub_11C35(__int64 a1)
+{
+  __readeflags();
+  return sub_11BDD(a1);
+}
+
+
+// === sub_12339 @ 0x12339 ===
+__int64 __fastcall sub_12339(__int64 a1)
+{
+  __readeflags();
+  return sub_12366(a1);
+}
+
+
+// === sub_12366 @ 0x12366 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_12366(__int64 a1, __int64 a2, __int64 a3)
+{
+  unsigned __int64 v4; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v4);
+  return ((__int64 (__fastcall *)(__int64, __int64, __int64))sub_123AB)(a1, a2, a3);
+}
+
+
+// === sub_123AB @ 0x123ab ===
+void __fastcall sub_123AB()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_124B4 @ 0x124b4 ===
+void __fastcall sub_124B4()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_12502 @ 0x12502 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_12502()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_124B4();
+}
+
+
+// === sub_12534 @ 0x12534 ===
+void sub_12534()
+{
+  __readeflags();
+  sub_12502();
+}
+
+
+// === nullsub_7 @ 0x12a44 ===
+__int64 nullsub_7()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_12A50 @ 0x12a50 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_12A50()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x12ADC);
+}
+
+
+// === sub_12AAC @ 0x12aac ===
+void __fastcall sub_12AAC(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_12A50();
+}
+
+
+// === sub_131DB @ 0x131db ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_131DB()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_13267();
+}
+
+
+// === sub_13230 @ 0x13230 ===
+__int64 __fastcall sub_13230(__int64 a1)
+{
+  __readeflags();
+  return sub_131DB(a1);
+}
+
+
+// === sub_13267 @ 0x13267 ===
+void __fastcall sub_13267()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_13D3C @ 0x13d3c ===
+// positive sp value has been detected, the output may be wrong!
+void sub_13D3C()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x13D8E);
+}
+
+
+// === sub_13D4B @ 0x13d4b ===
+void __fastcall sub_13D4B()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_13D77 @ 0x13d77 ===
+void __fastcall sub_13D77(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_13D3C();
+}
+
+
+// === sub_14576 @ 0x14576 ===
+void __fastcall sub_14576()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_145B2 @ 0x145b2 ===
+__int64 __fastcall sub_145B2(__int64 a1)
+{
+  __readeflags();
+  return sub_145FB(a1);
+}
+
+
+// === sub_145FB @ 0x145fb ===
+// positive sp value has been detected, the output may be wrong!
+void sub_145FB()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_14576();
+}
+
+
+// === sub_15030 @ 0x15030 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_15030()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_15087();
+}
+
+
+// === sub_15087 @ 0x15087 ===
+void __fastcall sub_15087()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_150E7 @ 0x150e7 ===
+__int64 __fastcall sub_150E7(__int64 a1)
+{
+  __readeflags();
+  return sub_15030(a1);
+}
+
+
+// === sub_151F5 @ 0x151f5 ===
+void __fastcall sub_151F5()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_15237 @ 0x15237 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_15237()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_151F5();
+}
+
+
+// === sub_15286 @ 0x15286 ===
+void sub_15286()
+{
+  __readeflags();
+  sub_15237();
+}
+
+
+// === sub_1546C @ 0x1546c ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_1546C()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_154A9();
+}
+
+
+// === sub_154A9 @ 0x154a9 ===
+void __fastcall sub_154A9()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_15506 @ 0x15506 ===
+__int64 __fastcall sub_15506(__int64 a1)
+{
+  __readeflags();
+  return sub_1546C(a1);
+}
+
+
+// === sub_15569 @ 0x15569 ===
+void __fastcall sub_15569()
+{
+  __int64 v0; // rbp
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1557D @ 0x1557d ===
+// positive sp value has been detected, the output may be wrong!
+void sub_1557D()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_15569();
+}
+
+
+// === sub_155EC @ 0x155ec ===
+void __spoils<> sub_155EC()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(0x7D838963C9E1004ALL - __ROL8__(0x50A0A365CFB0712CLL, 35)) - 0x1D2A49FA28B2A0DBLL);
+}
+
+
+// === sub_16ABE @ 0x16abe ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_16ABE(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v3; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v3);
+  return ((__int64 (__fastcall *)(__int64, __int64))sub_16AD1)(a1, a2);
+}
+
+
+// === sub_16AD1 @ 0x16ad1 ===
+void __fastcall sub_16AD1()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_16B44 @ 0x16b44 ===
+__int64 __fastcall sub_16B44(__int64 a1, __int64 a2)
+{
+  __readeflags();
+  return sub_16ABE(a1, a2);
+}
+
+
+// === sub_16B71 @ 0x16b71 ===
+void sub_16B71()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(0x6B3D2AC1ED646635LL - (__ROL8__(0x88894DF6B3D2AC0ALL, 28) + 1LL)) + 0x4A0EB04759B5AF1ALL);
+}
+
+
+// === sub_17BF1 @ 0x17bf1 ===
+void sub_17BF1()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROL8__(__ROL8__(0x582D16474141ED37LL, 38), 53), 23) + 0x4B229F4CEBBEDA82LL)
+  - 0xFFBE913EC0574CDLL);
+}
+
+
+// === sub_18088 @ 0x18088 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_18088()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_180CF();
+}
+
+
+// === sub_180B8 @ 0x180b8 ===
+__int64 __fastcall sub_180B8(__int64 a1)
+{
+  __readeflags();
+  return sub_18088(a1);
+}
+
+
+// === nullsub_8 @ 0x180ce ===
+void nullsub_8()
+{
+  ;
+}
+
+
+// === sub_180CF @ 0x180cf ===
+void __fastcall sub_180CF()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_18FC3 @ 0x18fc3 ===
+void __fastcall sub_18FC3()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_18FE3 @ 0x18fe3 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_18FE3()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x1901D);
+}
+
+
+// === sub_19008 @ 0x19008 ===
+void __fastcall sub_19008(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_18FE3();
+}
+
+
+// === sub_190CC @ 0x190cc ===
+void __fastcall sub_190CC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_190DD @ 0x190dd ===
+// positive sp value has been detected, the output may be wrong!
+void sub_190DD()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_190CC();
+}
+
+
+// === sub_19162 @ 0x19162 ===
+void sub_19162()
+{
+  __readeflags();
+  sub_190DD();
+}
+
+
+// === sub_193F3 @ 0x193f3 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_193F3()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_1943D();
+}
+
+
+// === sub_1943D @ 0x1943d ===
+void __fastcall sub_1943D()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1949C @ 0x1949c ===
+__int64 __fastcall sub_1949C(__int64 a1)
+{
+  __readeflags();
+  return sub_193F3(a1);
+}
+
+
+// === sub_194D3 @ 0x194d3 ===
+void sub_194D3()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(-__ROR8__(__ROR8__(__ROR8__(0x4EBE4780D9270B26LL, 17), 56), 31) - 0x7F26D8F394D56397LL)
+  - 0x2484523CB6156FB8LL);
+}
+
+
+// === nullsub_9 @ 0x19a70 ===
+__int64 nullsub_9()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_19A99 @ 0x19a99 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_19A99()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_19B08();
+}
+
+
+// === sub_19AFC @ 0x19afc ===
+__int64 __fastcall sub_19AFC(__int64 a1)
+{
+  __readeflags();
+  return sub_19A99(a1);
+}
+
+
+// === sub_19B08 @ 0x19b08 ===
+void __fastcall sub_19B08()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1A0B1 @ 0x1a0b1 ===
+void sub_1A0B1()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROL8__(~__ROR8__(0xE6AF2EDADB55AFB5LL, 18), 18), 4) + 0x6AF2EDAEFA36D981LL)
+  - 0x2484523CB6156FB8LL);
+}
+
+
+// === sub_1A4CF @ 0x1a4cf ===
+__int64 __fastcall sub_1A4CF(__int64 a1)
+{
+  __readeflags();
+  return sub_1A505(a1);
+}
+
+
+// === sub_1A505 @ 0x1a505 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_1A505(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v3; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v3);
+  return ((__int64 (__fastcall *)(__int64, __int64))sub_1A54B)(a1, a2);
+}
+
+
+// === sub_1A54B @ 0x1a54b ===
+void __fastcall sub_1A54B()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1B44A @ 0x1b44a ===
+void __fastcall sub_1B44A()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1B4A8 @ 0x1b4a8 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_1B4A8()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_1B44A();
+}
+
+
+// === sub_1B4BE @ 0x1b4be ===
+void sub_1B4BE()
+{
+  __readeflags();
+  sub_1B4A8();
+}
+
+
+// === nullsub_10 @ 0x1b58b ===
+void nullsub_10()
+{
+  ;
+}
+
+
+// === sub_1D594 @ 0x1d594 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_1D594()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_1D5FC();
+}
+
+
+// === sub_1D5FC @ 0x1d5fc ===
+void __fastcall sub_1D5FC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1D614 @ 0x1d614 ===
+__int64 __fastcall sub_1D614(__int64 a1)
+{
+  __readeflags();
+  return sub_1D594(a1);
+}
+
+
+// === sub_1DA39 @ 0x1da39 ===
+void __fastcall sub_1DA39()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1DA9C @ 0x1da9c ===
+__int64 __fastcall sub_1DA9C(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_1DAAF(a1);
+}
+
+
+// === sub_1DAAF @ 0x1daaf ===
+// positive sp value has been detected, the output may be wrong!
+void sub_1DAAF()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_1DA39();
+}
+
+
+// === sub_1E792 @ 0x1e792 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_1E792()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_1E7A6();
+}
+
+
+// === sub_1E7A6 @ 0x1e7a6 ===
+void __fastcall sub_1E7A6()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_1E826 @ 0x1e826 ===
+__int64 __fastcall sub_1E826(__int64 a1)
+{
+  __readeflags();
+  return sub_1E792(a1);
+}
+
+
+// === sub_1ED83 @ 0x1ed83 ===
+void sub_1ED83()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROR8__(__ROL8__(0x2DA06F1B5D942A24LL, 62), 7), 50) + 0x4BF21C95925682CBLL)
+  - 0x578E2D1C1472FB1ELL);
+}
+
+
+// === sub_1F327 @ 0x1f327 ===
+__int64 __fastcall sub_1F327(__int64 a1)
+{
+  __readeflags();
+  return sub_1F36B(a1);
+}
+
+
+// === sub_1F36B @ 0x1f36b ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_1F36B()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_1F398();
+}
+
+
+// === sub_1F398 @ 0x1f398 ===
+void __fastcall sub_1F398()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_21D1A @ 0x21d1a ===
+void __fastcall sub_21D1A()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_21D2B @ 0x21d2b ===
+// positive sp value has been detected, the output may be wrong!
+void sub_21D2B()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_21D1A();
+}
+
+
+// === sub_21D65 @ 0x21d65 ===
+void sub_21D65()
+{
+  __readeflags();
+  sub_21D2B();
+}
+
+
+// === sub_2255C @ 0x2255c ===
+void __fastcall sub_2255C()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_225E1 @ 0x225e1 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_225E1()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_2255C();
+}
+
+
+// === sub_225FA @ 0x225fa ===
+void sub_225FA()
+{
+  __readeflags();
+  sub_225E1();
+}
+
+
+// === sub_22711 @ 0x22711 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_22711()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x2278C);
+}
+
+
+// === sub_22746 @ 0x22746 ===
+__int64 __fastcall sub_22746(__int64 a1, unsigned int a2)
+{
+  return a2;
+}
+
+
+// === sub_22775 @ 0x22775 ===
+void __fastcall sub_22775(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_22711();
+}
+
+
+// === sub_230EE @ 0x230ee ===
+void __fastcall sub_230EE()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_2312B @ 0x2312b ===
+// positive sp value has been detected, the output may be wrong!
+void sub_2312B()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_230EE();
+}
+
+
+// === sub_23189 @ 0x23189 ===
+void sub_23189()
+{
+  __readeflags();
+  sub_2312B();
+}
+
+
+// === sub_23B9A @ 0x23b9a ===
+__int64 __fastcall sub_23B9A(__int64 a1)
+{
+  __readeflags();
+  return sub_23BAE(a1);
+}
+
+
+// === sub_23BAE @ 0x23bae ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_23BAE()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_23C11();
+}
+
+
+// === sub_23C11 @ 0x23c11 ===
+void __fastcall sub_23C11()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_25A6B @ 0x25a6b ===
+__int64 __fastcall sub_25A6B(__int64 a1)
+{
+  __readeflags();
+  return sub_25AB6(a1);
+}
+
+
+// === sub_25AAA @ 0x25aaa ===
+void __fastcall sub_25AAA()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_25AB6 @ 0x25ab6 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_25AB6()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_25AAA();
+}
+
+
+// === sub_25F98 @ 0x25f98 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_25F98()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x25FBF);
+}
+
+
+// === sub_25FA8 @ 0x25fa8 ===
+void __fastcall sub_25FA8(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_25F98();
+}
+
+
+// === sub_26047 @ 0x26047 ===
+void __fastcall sub_26047()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_26055 @ 0x26055 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_26055()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_26047();
+}
+
+
+// === sub_2609E @ 0x2609e ===
+void __fastcall sub_2609E(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_26055();
+}
+
+
+// === sub_2613A @ 0x2613a ===
+__int64 __fastcall sub_2613A(__int64 a1)
+{
+  unsigned __int64 v1; // kr00_8
+
+  v1 = __readeflags();
+  __writeeflags(v1);
+  return sub_261C7(a1);
+}
+
+
+// === sub_261C7 @ 0x261c7 ===
+void __fastcall sub_261C7()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_26467 @ 0x26467 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_26467(__int64 a1)
+{
+  unsigned __int64 v2; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v2);
+  return ((__int64 (__fastcall *)(__int64))sub_2648E)(a1);
+}
+
+
+// === sub_2648E @ 0x2648e ===
+void __fastcall sub_2648E()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_264EF @ 0x264ef ===
+__int64 __fastcall sub_264EF(__int64 a1)
+{
+  __readeflags();
+  return sub_26467(a1);
+}
+
+
+// === sub_26601 @ 0x26601 ===
+__int64 __fastcall sub_26601(__int64 a1, __int64 a2)
+{
+  return sub_26653(a1, a2 + 0x46744F26A351E8D5LL);
+}
+
+
+// === sub_26653 @ 0x26653 ===
+void __fastcall sub_26653(__int64 a1, __int64 a2)
+{
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, a2);
+}
+
+
+// === sub_26E3F @ 0x26e3f ===
+void __fastcall sub_26E3F()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_26E9B @ 0x26e9b ===
+// positive sp value has been detected, the output may be wrong!
+void sub_26E9B()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_26E3F();
+}
+
+
+// === sub_26EB1 @ 0x26eb1 ===
+void sub_26EB1()
+{
+  __readeflags();
+  sub_26E9B();
+}
+
+
+// === sub_2834C @ 0x2834c ===
+void __fastcall sub_2834C()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_28380 @ 0x28380 ===
+__int64 __fastcall sub_28380(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_283FD(a1);
+}
+
+
+// === sub_283FD @ 0x283fd ===
+// positive sp value has been detected, the output may be wrong!
+void sub_283FD()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_2834C();
+}
+
+
+// === sub_285B5 @ 0x285b5 ===
+void sub_285B5()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROR8__(__ROL8__(__ROR8__(__ROR8__(0x49025400A8E82449LL, 25), 16), 59), 22) - 1LL, 10)
+              - 0x40950028F52D34B9LL)
+  - 0x76FF569951D516A7LL);
+}
+
+
+// === sub_296C6 @ 0x296c6 ===
+__int64 __fastcall sub_296C6()
+{
+  __int64 v0; // rax
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  return _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_296FF @ 0x296ff ===
+void sub_296FF()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROR8__(__ROR8__(__ROL8__(0x6ADA92AE42DEFE26LL, 43), 16), 34), 15) - 0x7BF899AA256EDF0FLL)
+  - 0x1AE9A495303AF83ALL);
+}
+
+
+// === sub_2A1B7 @ 0x2a1b7 ===
+void __fastcall sub_2A1B7()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_2A1CB @ 0x2a1cb ===
+void sub_2A1CB()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_2A1B7();
+}
+
+
+// === sub_2A793 @ 0x2a793 ===
+void __fastcall sub_2A793()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_2A7BC @ 0x2a7bc ===
+void sub_2A7BC()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_2A793();
+}
+
+
+// === nullsub_11 @ 0x2a845 ===
+void nullsub_11()
+{
+  ;
+}
+
+
+// === sub_2B7EE @ 0x2b7ee ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_2B7EE()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_2B851();
+}
+
+
+// === sub_2B7FF @ 0x2b7ff ===
+__int64 __fastcall sub_2B7FF(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_2B7EE(a1);
+}
+
+
+// === sub_2B851 @ 0x2b851 ===
+void __fastcall sub_2B851()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_2B97F @ 0x2b97f ===
+void __spoils<> sub_2B97F()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROL8__(__ROL8__(__ROR8__(0x4F5C0D35430486BFLL, 27), 58), 16) - 1LL, 54) - 0x7E9EB81925AA37B9LL)
+  - 0x46FA875E8FD242C5LL);
+}
+
+
+// === nullsub_12 @ 0x2bc60 ===
+__int64 nullsub_12()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_13 @ 0x2bcb3 ===
+void nullsub_13()
+{
+  ;
+}
+
+
+// === sub_2F078 @ 0x2f078 ===
+void sub_2F078()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(0xA79F32D10FABA6FALL, 53) + 0x6697783E7A40628LL) + 0x45A8C21A18FF6AD1LL);
+}
+
+
+// === sub_2F681 @ 0x2f681 ===
+void __fastcall sub_2F681()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_2F6B9 @ 0x2f6b9 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_2F6B9()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_2F681();
+}
+
+
+// === sub_2F729 @ 0x2f729 ===
+void sub_2F729()
+{
+  __readeflags();
+  sub_2F6B9();
+}
+
+
+// === sub_2FC6B @ 0x2fc6b ===
+__int64 __fastcall sub_2FC6B(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_2FCCD(a1);
+}
+
+
+// === sub_2FCCD @ 0x2fccd ===
+// positive sp value has been detected, the output may be wrong!
+void sub_2FCCD()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x2FC8F);
+}
+
+
+// === sub_2FCE2 @ 0x2fce2 ===
+void __fastcall sub_2FCE2()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_306E0 @ 0x306e0 ===
+void __fastcall sub_306E0()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3073A @ 0x3073a ===
+__int64 __fastcall sub_3073A(__int64 a1)
+{
+  __readeflags();
+  return sub_3075C(a1);
+}
+
+
+// === sub_3075C @ 0x3075c ===
+// positive sp value has been detected, the output may be wrong!
+void sub_3075C()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_306E0();
+}
+
+
+// === nullsub_14 @ 0x30880 ===
+void nullsub_14()
+{
+  ;
+}
+
+
+// === nullsub_15 @ 0x30ddb ===
+void nullsub_15()
+{
+  ;
+}
+
+
+// === sub_31A81 @ 0x31a81 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_31A81(__int64 a1, __int64 a2, __int64 a3)
+{
+  unsigned __int64 v4; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v4);
+  return ((__int64 (__fastcall *)(__int64, __int64, __int64))sub_31ABD)(a1, a2, a3);
+}
+
+
+// === sub_31ABD @ 0x31abd ===
+void __fastcall sub_31ABD()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_31B33 @ 0x31b33 ===
+__int64 __fastcall sub_31B33(__int64 a1, __int64 a2, __int64 a3)
+{
+  __readeflags();
+  return sub_31A81(a1, a2, a3);
+}
+
+
+// === sub_32677 @ 0x32677 ===
+void __fastcall sub_32677()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_326BB @ 0x326bb ===
+// positive sp value has been detected, the output may be wrong!
+void sub_326BB()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_32677();
+}
+
+
+// === sub_326E0 @ 0x326e0 ===
+void sub_326E0()
+{
+  __readeflags();
+  sub_326BB();
+}
+
+
+// === nullsub_16 @ 0x32775 ===
+__int64 nullsub_16()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_17 @ 0x327ae ===
+__int64 nullsub_17()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_18 @ 0x32a6d ===
+__int64 nullsub_18()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_33C65 @ 0x33c65 ===
+void sub_33C65()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROL8__(__ROR8__(0x6102DDDF21D1F09BLL, 10), 5) - 1LL, 19) - 1LL + 0x2E0F84A041FDF8B3LL)
+  - 0x46F506AD82F841D5LL);
+}
+
+
+// === nullsub_19 @ 0x35e50 ===
+void nullsub_19()
+{
+  ;
+}
+
+
+// === nullsub_20 @ 0x35e70 ===
+__int64 nullsub_20()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_35E9E @ 0x35e9e ===
+void __fastcall sub_35E9E()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_35EA9 @ 0x35ea9 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_35EA9()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x35ED7);
+}
+
+
+// === sub_35EC0 @ 0x35ec0 ===
+void __fastcall sub_35EC0(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_35EA9();
+}
+
+
+// === sub_37944 @ 0x37944 ===
+void __fastcall sub_37944()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3799F @ 0x3799f ===
+void sub_3799F()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_37944();
+}
+
+
+// === sub_37A15 @ 0x37a15 ===
+__int64 __fastcall sub_37A15(int a1, int a2, int a3, int a4, int a5, int a6, __int64 a7)
+{
+  return sub_37A3C(a1, a2, a3, a4, a5, a6, a7);
+}
+
+
+// === sub_37A3C @ 0x37a3c ===
+__int64 __fastcall sub_37A3C(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_37ABA(a1);
+}
+
+
+// === sub_37ABA @ 0x37aba ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_37ABA()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_37AD0();
+}
+
+
+// === sub_37AD0 @ 0x37ad0 ===
+void __fastcall sub_37AD0()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3AB73 @ 0x3ab73 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_3AB73()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_3ABB0();
+}
+
+
+// === sub_3ABB0 @ 0x3abb0 ===
+void __fastcall sub_3ABB0()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3ABDD @ 0x3abdd ===
+__int64 __fastcall sub_3ABDD(__int64 a1)
+{
+  __readeflags();
+  return sub_3AB73(a1);
+}
+
+
+// === sub_3C3A6 @ 0x3c3a6 ===
+// positive sp value has been detected, the output may be wrong!
+void __fastcall sub_3C3A6()
+{
+  _QWORD *v0; // rbx
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  __writeeflags(v1);
+  _InterlockedExchange64((volatile __int64 *)&retaddr, *v0 + 0x5AFB8F1E3B5EAC32LL);
+}
+
+
+// === sub_3C3DE @ 0x3c3de ===
+void sub_3C3DE()
+{
+  __readeflags();
+  sub_3C3A6();
+}
+
+
+// === sub_3CC9A @ 0x3cc9a ===
+void __fastcall sub_3CC9A()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3CCDB @ 0x3ccdb ===
+__int64 __fastcall sub_3CCDB(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_3CD01(a1);
+}
+
+
+// === sub_3CD01 @ 0x3cd01 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_3CD01()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_3CC9A();
+}
+
+
+// === nullsub_21 @ 0x3cf5f ===
+void nullsub_21()
+{
+  ;
+}
+
+
+// === sub_3DDEE @ 0x3ddee ===
+void __fastcall sub_3DDEE()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3DE1F @ 0x3de1f ===
+// positive sp value has been detected, the output may be wrong!
+void sub_3DE1F()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_3DDEE();
+}
+
+
+// === sub_3DE4B @ 0x3de4b ===
+void sub_3DE4B()
+{
+  __readeflags();
+  sub_3DE1F();
+}
+
+
+// === sub_3DEB7 @ 0x3deb7 ===
+void __fastcall sub_3DEB7()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3DEE2 @ 0x3dee2 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_3DEE2()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_3DEB7();
+}
+
+
+// === sub_3DF5D @ 0x3df5d ===
+void sub_3DF5D()
+{
+  __readeflags();
+  sub_3DEE2();
+}
+
+
+// === sub_3E3A3 @ 0x3e3a3 ===
+void __fastcall sub_3E3A3()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_3E3CD @ 0x3e3cd ===
+__int64 __fastcall sub_3E3CD(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_3E3DF(a1);
+}
+
+
+// === sub_3E3DF @ 0x3e3df ===
+// positive sp value has been detected, the output may be wrong!
+void sub_3E3DF()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_3E3A3();
+}
+
+
+// === sub_3FCD5 @ 0x3fcd5 ===
+void __spoils<> sub_3FCD5()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(0x2D6978D023E89448LL, 39) + 0xBB5DBEA901F8F80LL) - 0x1E8C42C11D72B459LL);
+}
+
+
+// === nullsub_22 @ 0x42442 ===
+void nullsub_22()
+{
+  ;
+}
+
+
+// === sub_4246B @ 0x4246b ===
+void __fastcall sub_4246B()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_4248A @ 0x4248a ===
+__int64 __fastcall sub_4248A(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_424AE(a1);
+}
+
+
+// === sub_424AE @ 0x424ae ===
+// positive sp value has been detected, the output may be wrong!
+void sub_424AE()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_4246B();
+}
+
+
+// === sub_42768 @ 0x42768 ===
+void sub_42768()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROR8__(__ROL8__(__ROR8__(0xEF664E14A0687057LL, 19), 28) - 1LL, 11), 35) - 0x40D0E0AE98F0BF22LL)
+  + 0x40CBCF41853AB841LL);
+}
+
+
+// === sub_44A70 @ 0x44a70 ===
+void __fastcall sub_44A70()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_44ACD @ 0x44acd ===
+// positive sp value has been detected, the output may be wrong!
+void sub_44ACD()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_44A70();
+}
+
+
+// === sub_44B20 @ 0x44b20 ===
+void sub_44B20()
+{
+  __readeflags();
+  sub_44ACD();
+}
+
+
+// === sub_45A30 @ 0x45a30 ===
+void __fastcall sub_45A30()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_45A3E @ 0x45a3e ===
+__int64 __fastcall sub_45A3E(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_45A8A(a1);
+}
+
+
+// === sub_45A8A @ 0x45a8a ===
+// positive sp value has been detected, the output may be wrong!
+void sub_45A8A()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_45A30();
+}
+
+
+// === sub_46EF4 @ 0x46ef4 ===
+void __spoils<> sub_46EF4()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(0x14FD9DB4BECD7535LL - __ROL8__(0x229FB3B66F3E3085LL, 3)) - 0xF4192ABB6F91489LL);
+}
+
+
+// === sub_47E71 @ 0x47e71 ===
+void __fastcall sub_47E71()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_47EFE @ 0x47efe ===
+// positive sp value has been detected, the output may be wrong!
+void sub_47EFE()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x47EC6);
+}
+
+
+// === nullsub_23 @ 0x49c35 ===
+__int64 nullsub_23()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_49CB0 @ 0x49cb0 ===
+void __fastcall sub_49CB0()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_49CD1 @ 0x49cd1 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_49CD1()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_49CB0();
+}
+
+
+// === sub_49CE5 @ 0x49ce5 ===
+void sub_49CE5()
+{
+  __readeflags();
+  sub_49CD1();
+}
+
+
+// === sub_4B23B @ 0x4b23b ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_4B23B(__int64 a1, __int64 a2, __int64 a3)
+{
+  unsigned __int64 v4; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v4);
+  return ((__int64 (__fastcall *)(__int64, __int64, __int64))sub_4B2CA)(a1, a2, a3);
+}
+
+
+// === nullsub_24 @ 0x4b270 ===
+__int64 nullsub_24()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_4B2CA @ 0x4b2ca ===
+void __fastcall sub_4B2CA()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_4B2F2 @ 0x4b2f2 ===
+__int64 __fastcall sub_4B2F2(__int64 a1, __int64 a2, __int64 a3)
+{
+  __readeflags();
+  return sub_4B23B(a1, a2, a3);
+}
+
+
+// === sub_4C151 @ 0x4c151 ===
+void sub_4C151()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(0x5F56B77C18D3943DLL, 21) + 0x107CE58EBD2FFD79LL) + 0x4CDCE57BC603AC14LL);
+}
+
+
+// === sub_4F41A @ 0x4f41a ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_4F41A()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_4F46C();
+}
+
+
+// === sub_4F46C @ 0x4f46c ===
+void __fastcall sub_4F46C()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_4F483 @ 0x4f483 ===
+__int64 __fastcall sub_4F483(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_4F41A(a1);
+}
+
+
+// === sub_4F4F2 @ 0x4f4f2 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_4F4F2()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x4F54C);
+}
+
+
+// === sub_4F502 @ 0x4f502 ===
+void __fastcall sub_4F502(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_4F4F2();
+}
+
+
+// === sub_5095E @ 0x5095e ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_5095E()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_50981();
+}
+
+
+// === sub_50981 @ 0x50981 ===
+void __fastcall sub_50981()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_509E3 @ 0x509e3 ===
+__int64 __fastcall sub_509E3(__int64 a1)
+{
+  __readeflags();
+  return sub_5095E(a1);
+}
+
+
+// === sub_51095 @ 0x51095 ===
+void __fastcall sub_51095()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_510CC @ 0x510cc ===
+// positive sp value has been detected, the output may be wrong!
+void sub_510CC()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_51095();
+}
+
+
+// === sub_51136 @ 0x51136 ===
+void sub_51136()
+{
+  __readeflags();
+  sub_510CC();
+}
+
+
+// === sub_51F8A @ 0x51f8a ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_51F8A(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v3; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v3);
+  return ((__int64 (__fastcall *)(__int64, __int64))sub_52011)(a1, a2);
+}
+
+
+// === sub_51FE0 @ 0x51fe0 ===
+__int64 __fastcall sub_51FE0(__int64 a1, __int64 a2)
+{
+  __readeflags();
+  return sub_51F8A(a1, a2);
+}
+
+
+// === sub_52011 @ 0x52011 ===
+void __fastcall sub_52011()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_5323E @ 0x5323e ===
+void sub_5323E()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROL8__(__ROL8__(__ROR8__(__ROL8__(0x6F93FD04E5B07E31LL, 57), 56), 3), 61), 50)
+              + 0x17D8D2905C32C08LL)
+  - 0x3669097DA0F58C82LL);
+}
+
+
+// === sub_54125 @ 0x54125 ===
+__int64 __fastcall sub_54125(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_54132(a1);
+}
+
+
+// === sub_54132 @ 0x54132 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_54132()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_54150();
+}
+
+
+// === sub_54150 @ 0x54150 ===
+void __fastcall sub_54150()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_556FC @ 0x556fc ===
+void __fastcall sub_556FC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_5576D @ 0x5576d ===
+void sub_5576D()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_556FC();
+}
+
+
+// === nullsub_25 @ 0x5584d ===
+__int64 nullsub_25()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_55E79 @ 0x55e79 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_55E79(__int64 a1)
+{
+  unsigned __int64 v2; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v2);
+  return ((__int64 (__fastcall *)(__int64))sub_55ECC)(a1);
+}
+
+
+// === nullsub_26 @ 0x55e82 ===
+void nullsub_26()
+{
+  ;
+}
+
+
+// === sub_55ECC @ 0x55ecc ===
+void __fastcall sub_55ECC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_55EDA @ 0x55eda ===
+__int64 __fastcall sub_55EDA(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_55E79(a1);
+}
+
+
+// === nullsub_27 @ 0x55f9d ===
+__int64 nullsub_27()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_28 @ 0x56064 ===
+void nullsub_28()
+{
+  ;
+}
+
+
+// === sub_56269 @ 0x56269 ===
+void __fastcall sub_56269()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_562DD @ 0x562dd ===
+void sub_562DD()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_56269();
+}
+
+
+// === sub_566AF @ 0x566af ===
+void __spoils<> sub_566AF()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64((volatile __int64 *)&retaddr, MEMORY[0x144DBD3AF] - 0x2D520B5A7E174289LL);
+}
+
+
+// === sub_56EA2 @ 0x56ea2 ===
+void sub_56EA2()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(-(__ROR8__(0x34236D4A6D3F1E53LL, 37) + 1LL), 37) + 0x34236D4BB21B0989LL) + 0x7B21229517A0C289LL);
+}
+
+
+// === sub_58913 @ 0x58913 ===
+void __fastcall sub_58913()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_58933 @ 0x58933 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_58933()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_58913();
+}
+
+
+// === sub_58953 @ 0x58953 ===
+void __fastcall sub_58953(__int64 a1, _BYTE *a2, char a3)
+{
+  *a2 += a3;
+}
+
+
+// === sub_5895D @ 0x5895d ===
+void sub_5895D()
+{
+  __readeflags();
+  sub_58933();
+}
+
+
+// === sub_58DCD @ 0x58dcd ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_58DCD(__int64 a1)
+{
+  unsigned __int64 v2; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v2);
+  return ((__int64 (__fastcall *)(__int64))sub_58E79)(a1);
+}
+
+
+// === sub_58E62 @ 0x58e62 ===
+__int64 __fastcall sub_58E62(__int64 a1)
+{
+  __readeflags();
+  return sub_58DCD(a1);
+}
+
+
+// === sub_58E79 @ 0x58e79 ===
+void __fastcall sub_58E79()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_59D9D @ 0x59d9d ===
+__int64 __fastcall sub_59D9D(__int64 a1)
+{
+  __readeflags();
+  return sub_59DC6(a1);
+}
+
+
+// === nullsub_29 @ 0x59da4 ===
+__int64 nullsub_29()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_59DAC @ 0x59dac ===
+void __fastcall sub_59DAC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_59DC6 @ 0x59dc6 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_59DC6()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_59DAC();
+}
+
+
+// === nullsub_30 @ 0x59f1b ===
+void nullsub_30()
+{
+  ;
+}
+
+
+// === sub_5BD77 @ 0x5bd77 ===
+void __fastcall sub_5BD77()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_5BDB1 @ 0x5bdb1 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_5BDB1()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_5BD77();
+}
+
+
+// === sub_5BDC8 @ 0x5bdc8 ===
+void sub_5BDC8()
+{
+  __readeflags();
+  sub_5BDB1();
+}
+
+
+// === sub_5CA96 @ 0x5ca96 ===
+void __fastcall sub_5CA96()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_5CB0C @ 0x5cb0c ===
+__int64 __fastcall sub_5CB0C(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_5CB36(a1);
+}
+
+
+// === sub_5CB36 @ 0x5cb36 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_5CB36()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_5CA96();
+}
+
+
+// === nullsub_31 @ 0x5cd08 ===
+void nullsub_31()
+{
+  ;
+}
+
+
+// === nullsub_32 @ 0x5cd09 ===
+__int64 nullsub_32()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_5CD3C @ 0x5cd3c ===
+void __fastcall sub_5CD3C()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_5CD46 @ 0x5cd46 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_5CD46()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_5CD3C();
+}
+
+
+// === sub_5CD83 @ 0x5cd83 ===
+void sub_5CD83()
+{
+  __readeflags();
+  sub_5CD46();
+}
+
+
+// === sub_5CEED @ 0x5ceed ===
+__int64 __fastcall sub_5CEED(__int64 a1)
+{
+  __readeflags();
+  return sub_5CEFC(a1);
+}
+
+
+// === sub_5CEFC @ 0x5cefc ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_5CEFC(__int64 a1)
+{
+  unsigned __int64 v2; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v2);
+  return ((__int64 (__fastcall *)(__int64))sub_5CF0E)(a1);
+}
+
+
+// === sub_5CF0E @ 0x5cf0e ===
+void __fastcall sub_5CF0E()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_5D35A @ 0x5d35a ===
+void __fastcall sub_5D35A()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === nullsub_33 @ 0x5d431 ===
+void __fastcall nullsub_33(
+        __int64 a1,
+        __int64 a2,
+        __int64 a3,
+        __int64 a4,
+        __int64 a5,
+        __int64 a6,
+        __int64 a7,
+        __int64 a8,
+        __int64 a9,
+        __int64 a10,
+        __int64 a11,
+        __int64 a12,
+        __int64 a13,
+        __int64 a14,
+        __int64 a15,
+        __int64 a16,
+        __int64 a17,
+        __int64 a18,
+        __int64 a19,
+        __int64 a20,
+        __int64 a21,
+        __int64 a22,
+        __int64 a23,
+        __int64 a24,
+        __int64 a25,
+        __int64 a26,
+        __int64 a27,
+        __int64 a28,
+        __int64 a29,
+        __int64 a30,
+        __int64 a31,
+        __int64 a32,
+        __int64 a33,
+        __int64 a34,
+        __int64 a35,
+        __int64 a36,
+        __int64 a37,
+        __int64 a38,
+        __int64 a39,
+        __int64 a40,
+        __int64 a41,
+        __int64 a42,
+        __int64 a43,
+        __int64 a44,
+        __int64 a45,
+        __int64 a46,
+        __int64 a47,
+        __int64 a48,
+        __int64 a49,
+        __int64 a50,
+        __int64 a51,
+        __int64 a52,
+        __int64 a53,
+        __int64 a54,
+        __int64 a55,
+        __int64 a56,
+        __int64 a57,
+        __int64 a58,
+        __int64 a59,
+        __int64 a60,
+        __int64 a61,
+        __int64 a62,
+        __int64 a63)
+{
+  __asm { retfq   4245h }
+}
+
+
+// === sub_623E8 @ 0x623e8 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_623E8()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x62471);
+}
+
+
+// === nullsub_34 @ 0x62590 ===
+void nullsub_34()
+{
+  ;
+}
+
+
+// === sub_625AB @ 0x625ab ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_625AB(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v3; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v3);
+  return ((__int64 (__fastcall *)(__int64, __int64))sub_62654)(a1, a2);
+}
+
+
+// === nullsub_35 @ 0x625f4 ===
+void nullsub_35()
+{
+  ;
+}
+
+
+// === sub_6263F @ 0x6263f ===
+__int64 __fastcall sub_6263F(__int64 a1, __int64 a2)
+{
+  __readeflags();
+  return sub_625AB(a1, a2);
+}
+
+
+// === sub_62654 @ 0x62654 ===
+void __fastcall sub_62654()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_644BD @ 0x644bd ===
+// positive sp value has been detected, the output may be wrong!
+void sub_644BD()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x6450F);
+}
+
+
+// === sub_644E5 @ 0x644e5 ===
+void __fastcall sub_644E5(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_644BD();
+}
+
+
+// === sub_64F69 @ 0x64f69 ===
+void __fastcall sub_64F69()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_64F73 @ 0x64f73 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_64F73()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_64F69();
+}
+
+
+// === sub_65005 @ 0x65005 ===
+void sub_65005()
+{
+  __readeflags();
+  sub_64F73();
+}
+
+
+// === sub_65FB7 @ 0x65fb7 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_65FB7(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v3; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v3);
+  return ((__int64 (__fastcall *)(__int64, __int64))sub_65FE9)(a1, a2);
+}
+
+
+// === sub_65FE9 @ 0x65fe9 ===
+void __fastcall sub_65FE9()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_65FFE @ 0x65ffe ===
+__int64 __fastcall sub_65FFE(__int64 a1, __int64 a2)
+{
+  __readeflags();
+  return sub_65FB7(a1, a2);
+}
+
+
+// === sub_66E4B @ 0x66e4b ===
+void sub_66E4B()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROR8__(0xD869A9CD9A5999B1LL, 57) - 2LL, 51) - 1LL + 0x63265A67A9BE8FD2LL)
+  - 0x3B7A32ED00021F23LL);
+}
+
+
+// === sub_67470 @ 0x67470 ===
+void __fastcall sub_67470()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_674A9 @ 0x674a9 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_674A9()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_67470();
+}
+
+
+// === sub_674C1 @ 0x674c1 ===
+void sub_674C1()
+{
+  __readeflags();
+  sub_674A9();
+}
+
+
+// === sub_68BAB @ 0x68bab ===
+void __fastcall sub_68BAB()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_68BD5 @ 0x68bd5 ===
+void sub_68BD5()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_68BAB();
+}
+
+
+// === sub_69005 @ 0x69005 ===
+void __fastcall sub_69005()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_69027 @ 0x69027 ===
+void sub_69027()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_69005();
+}
+
+
+// === sub_6A873 @ 0x6a873 ===
+void sub_6A873()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROL8__(__ROL8__(0xECDE100D4B1A1F3ALL, 40), 30), 42) + 0x2B4E5E0D960DE124LL)
+  - 0x4086C5062019B768LL);
+}
+
+
+// === nullsub_36 @ 0x6abb0 ===
+__int64 nullsub_36()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_37 @ 0x6abc7 ===
+__int64 nullsub_37()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_6AD99 @ 0x6ad99 ===
+void __fastcall sub_6AD99()
+{
+  __int64 v0; // rbp
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_6ADB0 @ 0x6adb0 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_6ADB0()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_6AD99();
+}
+
+
+// === sub_6ADD1 @ 0x6add1 ===
+void sub_6ADD1()
+{
+  sub_6ADB0();
+}
+
+
+// === nullsub_38 @ 0x6aff6 ===
+void nullsub_38()
+{
+  ;
+}
+
+
+// === nullsub_39 @ 0x6b0e1 ===
+void nullsub_39()
+{
+  ;
+}
+
+
+// === sub_6C291 @ 0x6c291 ===
+__int64 __fastcall sub_6C291(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_6C302(a1);
+}
+
+
+// === sub_6C2F4 @ 0x6c2f4 ===
+void __fastcall sub_6C2F4()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_6C302 @ 0x6c302 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_6C302()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x6C2A5);
+}
+
+
+// === sub_6D222 @ 0x6d222 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_6D222()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x6D261);
+}
+
+
+// === nullsub_40 @ 0x6d3b9 ===
+void nullsub_40()
+{
+  ;
+}
+
+
+// === sub_6D47E @ 0x6d47e ===
+__int64 __fastcall sub_6D47E(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_6D4F4(a1);
+}
+
+
+// === sub_6D4C1 @ 0x6d4c1 ===
+void __fastcall sub_6D4C1()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_6D4F4 @ 0x6d4f4 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_6D4F4()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_6D4C1();
+}
+
+
+// === sub_6DFFA @ 0x6dffa ===
+__int64 __fastcall sub_6DFFA(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_6E053(a1);
+}
+
+
+// === sub_6E01B @ 0x6e01b ===
+__int64 __fastcall sub_6E01B()
+{
+  __int64 v0; // rax
+
+  return *(_DWORD *)(v0 + 26345918) & (unsigned int)v0;
+}
+
+
+// === sub_6E028 @ 0x6e028 ===
+void __fastcall sub_6E028()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_6E053 @ 0x6e053 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_6E053()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_6E028();
+}
+
+
+// === nullsub_41 @ 0x6e100 ===
+void nullsub_41()
+{
+  ;
+}
+
+
+// === sub_6F812 @ 0x6f812 ===
+void __fastcall sub_6F812()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_6F81F @ 0x6f81f ===
+// positive sp value has been detected, the output may be wrong!
+void sub_6F81F()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x6F86F);
+}
+
+
+// === sub_6F858 @ 0x6f858 ===
+void __fastcall sub_6F858(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_6F81F();
+}
+
+
+// === sub_6FC82 @ 0x6fc82 ===
+void __fastcall sub_6FC82()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_6FC95 @ 0x6fc95 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_6FC95()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_6FC82();
+}
+
+
+// === sub_6FCAF @ 0x6fcaf ===
+void sub_6FCAF()
+{
+  __readeflags();
+  sub_6FC95();
+}
+
+
+// === sub_72C27 @ 0x72c27 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_72C27()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_72C35();
+}
+
+
+// === sub_72C35 @ 0x72c35 ===
+void __fastcall sub_72C35()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_72C56 @ 0x72c56 ===
+__int64 __fastcall sub_72C56(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_72C27(a1);
+}
+
+
+// === sub_73198 @ 0x73198 ===
+void __fastcall sub_73198()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_731B0 @ 0x731b0 ===
+__int64 __fastcall sub_731B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_731CF(a1);
+}
+
+
+// === sub_731CF @ 0x731cf ===
+// positive sp value has been detected, the output may be wrong!
+void sub_731CF()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_73198();
+}
+
+
+// === sub_767BE @ 0x767be ===
+void sub_767BE()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROR8__(0xFA4DD784839F17F0LL, 16), 39) + 0x6450F6FA06AC04C9LL) - 0x445A95984B42AA3ELL);
+}
+
+
+// === nullsub_42 @ 0x76918 ===
+void nullsub_42()
+{
+  ;
+}
+
+
+// === sub_76A98 @ 0x76a98 ===
+void sub_76A98()
+{
+  __asm { retf }
+}
+
+
+// === sub_76BE5 @ 0x76be5 ===
+void sub_76BE5()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROL8__(__ROL8__(~__ROR8__(-__ROL8__(0x6EE04220E73FF201LL, 9) - 2LL, 17), 19), 32), 54)
+              - 0x402DEC06FF411CD0LL)
+  - 0x2341EBBF94C523FFLL);
+}
+
+
+// === sub_7863E @ 0x7863e ===
+void __fastcall sub_7863E()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_7866D @ 0x7866d ===
+__int64 __fastcall sub_7866D(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_7867F(a1);
+}
+
+
+// === sub_7867F @ 0x7867f ===
+// positive sp value has been detected, the output may be wrong!
+void sub_7867F()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_7863E();
+}
+
+
+// === nullsub_43 @ 0x786a0 ===
+void nullsub_43()
+{
+  ;
+}
+
+
+// === sub_7971E @ 0x7971e ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_7971E(__int64 a1)
+{
+  unsigned __int64 v2; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v2);
+  return ((__int64 (__fastcall *)(__int64))sub_797B7)(a1);
+}
+
+
+// === sub_79792 @ 0x79792 ===
+__int64 __fastcall sub_79792(__int64 a1)
+{
+  __readeflags();
+  return sub_7971E(a1);
+}
+
+
+// === sub_797B7 @ 0x797b7 ===
+void __fastcall sub_797B7()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === nullsub_44 @ 0x79973 ===
+__int64 nullsub_44()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_45 @ 0x79987 ===
+__int64 nullsub_45()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_7A1AC @ 0x7a1ac ===
+void __fastcall sub_7A1AC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_7A1DC @ 0x7a1dc ===
+void sub_7A1DC()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_7A1AC();
+}
+
+
+// === nullsub_46 @ 0x7a469 ===
+void nullsub_46()
+{
+  ;
+}
+
+
+// === sub_7A85D @ 0x7a85d ===
+void __fastcall sub_7A85D()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_7A86B @ 0x7a86b ===
+void sub_7A86B()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_7A85D();
+}
+
+
+// === nullsub_47 @ 0x7a91e ===
+void nullsub_47()
+{
+  ;
+}
+
+
+// === sub_7E5E8 @ 0x7e5e8 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_7E5E8(__int64 a1, __int64 a2)
+{
+  unsigned __int64 v3; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v3);
+  return ((__int64 (__fastcall *)(__int64, __int64))sub_7E5F5)(a1, a2);
+}
+
+
+// === sub_7E5F5 @ 0x7e5f5 ===
+void __fastcall sub_7E5F5()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_7E67C @ 0x7e67c ===
+__int64 __fastcall sub_7E67C(__int64 a1, __int64 a2)
+{
+  __readeflags();
+  return sub_7E5E8(a1, a2);
+}
+
+
+// === nullsub_48 @ 0x7e844 ===
+__int64 nullsub_48()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_7F347 @ 0x7f347 ===
+void __fastcall sub_7F347()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_7F367 @ 0x7f367 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_7F367()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_7F347();
+}
+
+
+// === sub_7F377 @ 0x7f377 ===
+void sub_7F377()
+{
+  __readeflags();
+  sub_7F367();
+}
+
+
+// === sub_7F818 @ 0x7f818 ===
+__int64 __fastcall sub_7F818(__int64 a1)
+{
+  __readeflags();
+  return sub_7F829(a1);
+}
+
+
+// === sub_7F829 @ 0x7f829 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_7F829(__int64 a1)
+{
+  unsigned __int64 v2; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v2);
+  return ((__int64 (__fastcall *)(__int64))sub_7F855)(a1);
+}
+
+
+// === sub_7F855 @ 0x7f855 ===
+void __fastcall sub_7F855()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_805AE @ 0x805ae ===
+__int64 __fastcall sub_805AE(__int64 a1)
+{
+  __readeflags();
+  return sub_805D3(a1);
+}
+
+
+// === sub_805C5 @ 0x805c5 ===
+void __fastcall sub_805C5()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_805D3 @ 0x805d3 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_805D3()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_805C5();
+}
+
+
+// === sub_816EB @ 0x816eb ===
+void __fastcall sub_816EB()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_816FD @ 0x816fd ===
+// positive sp value has been detected, the output may be wrong!
+void sub_816FD()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_816EB();
+}
+
+
+// === sub_8173F @ 0x8173f ===
+void sub_8173F()
+{
+  __readeflags();
+  sub_816FD();
+}
+
+
+// === sub_83520 @ 0x83520 ===
+void __fastcall sub_83520()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_8355D @ 0x8355d ===
+// positive sp value has been detected, the output may be wrong!
+void sub_8355D()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x835A5);
+}
+
+
+// === sub_83591 @ 0x83591 ===
+void __fastcall sub_83591(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_8355D();
+}
+
+
+// === sub_837D4 @ 0x837d4 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_837D4()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_83811();
+}
+
+
+// === sub_83811 @ 0x83811 ===
+void __fastcall sub_83811()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_8381F @ 0x8381f ===
+__int64 __fastcall sub_8381F(__int64 a1)
+{
+  __readeflags();
+  return sub_837D4(a1);
+}
+
+
+// === sub_8471B @ 0x8471b ===
+// positive sp value has been detected, the output may be wrong!
+__int64 sub_8471B()
+{
+  unsigned __int64 v1; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v1);
+  return sub_84790();
+}
+
+
+// === sub_84769 @ 0x84769 ===
+__int64 __fastcall sub_84769(__int64 a1)
+{
+  __readeflags();
+  return sub_8471B(a1);
+}
+
+
+// === sub_84790 @ 0x84790 ===
+void __fastcall sub_84790()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_85365 @ 0x85365 ===
+void __fastcall sub_85365()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_853C9 @ 0x853c9 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_853C9()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_85365();
+}
+
+
+// === sub_8540C @ 0x8540c ===
+void sub_8540C()
+{
+  __readeflags();
+  sub_853C9();
+}
+
+
+// === sub_86F9C @ 0x86f9c ===
+// positive sp value has been detected, the output may be wrong!
+void sub_86F9C()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x86FEF);
+}
+
+
+// === sub_86FA7 @ 0x86fa7 ===
+void __fastcall sub_86FA7()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_86FBD @ 0x86fbd ===
+void __fastcall sub_86FBD(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_86F9C();
+}
+
+
+// === sub_870A7 @ 0x870a7 ===
+void __fastcall sub_870A7(__int64 a1, __int64 a2, __int64 a3, __int64 a4)
+{
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, a4);
+}
+
+
+// === nullsub_49 @ 0x87281 ===
+void __fastcall nullsub_49(
+        __int64 a1,
+        __int64 a2,
+        __int64 a3,
+        __int64 a4,
+        __int64 a5,
+        __int64 a6,
+        __int64 a7,
+        __int64 a8,
+        __int64 a9,
+        __int64 a10,
+        __int64 a11,
+        __int64 a12,
+        __int64 a13,
+        __int64 a14,
+        __int64 a15,
+        __int64 a16,
+        __int64 a17,
+        __int64 a18,
+        __int64 a19,
+        __int64 a20,
+        __int64 a21,
+        __int64 a22,
+        __int64 a23,
+        __int64 a24,
+        __int64 a25,
+        __int64 a26,
+        __int64 a27,
+        __int64 a28,
+        __int64 a29,
+        __int64 a30,
+        __int64 a31,
+        __int64 a32,
+        __int64 a33,
+        __int64 a34,
+        __int64 a35,
+        __int64 a36,
+        __int64 a37,
+        __int64 a38,
+        __int64 a39,
+        __int64 a40,
+        __int64 a41,
+        __int64 a42,
+        __int64 a43,
+        __int64 a44,
+        __int64 a45,
+        __int64 a46,
+        __int64 a47,
+        __int64 a48,
+        __int64 a49,
+        __int64 a50,
+        __int64 a51,
+        __int64 a52,
+        __int64 a53,
+        __int64 a54,
+        __int64 a55,
+        __int64 a56,
+        __int64 a57,
+        __int64 a58,
+        __int64 a59,
+        __int64 a60,
+        __int64 a61,
+        __int64 a62,
+        __int64 a63)
+{
+  ;
+}
+
+
+// === sub_87491 @ 0x87491 ===
+void sub_87491()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROR8__(~(__ROL8__(0x76F71D42C2F9B6D2LL, 5) - 2LL), 57), 34) - 1LL + 0x6DB499BF0C2C925DLL)
+  - 0x1D3FC72DF5AE56CCLL);
+}
+
+
+// === sub_87D09 @ 0x87d09 ===
+__int64 __fastcall sub_87D09(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_87D80(a1);
+}
+
+
+// === sub_87D74 @ 0x87d74 ===
+void __fastcall sub_87D74()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_87D80 @ 0x87d80 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_87D80()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x87D32);
+}
+
+
+// === sub_890F4 @ 0x890f4 ===
+void __fastcall sub_890F4()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_8912A @ 0x8912a ===
+__int64 __fastcall sub_8912A(__int64 a1)
+{
+  __readeflags();
+  return sub_89157(a1);
+}
+
+
+// === sub_89157 @ 0x89157 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_89157()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_890F4();
+}
+
+
+// === sub_89384 @ 0x89384 ===
+void __fastcall sub_89384()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_893CE @ 0x893ce ===
+// positive sp value has been detected, the output may be wrong!
+void sub_893CE()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_89384();
+}
+
+
+// === sub_8941C @ 0x8941c ===
+void sub_8941C()
+{
+  __readeflags();
+  sub_893CE();
+}
+
+
+// === sub_897E2 @ 0x897e2 ===
+void __fastcall sub_897E2()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_897F6 @ 0x897f6 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_897F6()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_897E2();
+}
+
+
+// === sub_89807 @ 0x89807 ===
+void __fastcall sub_89807(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_897F6();
+}
+
+
+// === sub_89B27 @ 0x89b27 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_89B27()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x89B95);
+}
+
+
+// === nullsub_50 @ 0x89b51 ===
+void __fastcall nullsub_50(
+        __int64 a1,
+        __int64 a2,
+        __int64 a3,
+        __int64 a4,
+        __int64 a5,
+        __int64 a6,
+        __int64 a7,
+        __int64 a8,
+        __int64 a9,
+        __int64 a10,
+        __int64 a11,
+        __int64 a12,
+        __int64 a13,
+        __int64 a14,
+        __int64 a15,
+        __int64 a16,
+        __int64 a17,
+        __int64 a18,
+        __int64 a19,
+        __int64 a20,
+        __int64 a21,
+        __int64 a22,
+        __int64 a23,
+        __int64 a24,
+        __int64 a25,
+        __int64 a26,
+        __int64 a27,
+        __int64 a28,
+        __int64 a29,
+        __int64 a30,
+        __int64 a31,
+        __int64 a32,
+        __int64 a33,
+        __int64 a34,
+        __int64 a35,
+        __int64 a36,
+        __int64 a37,
+        __int64 a38,
+        __int64 a39,
+        __int64 a40,
+        __int64 a41,
+        __int64 a42,
+        __int64 a43,
+        __int64 a44,
+        __int64 a45,
+        __int64 a46,
+        __int64 a47,
+        __int64 a48,
+        __int64 a49,
+        __int64 a50,
+        __int64 a51,
+        __int64 a52,
+        __int64 a53,
+        __int64 a54,
+        __int64 a55,
+        __int64 a56,
+        __int64 a57,
+        __int64 a58,
+        __int64 a59,
+        __int64 a60,
+        __int64 a61,
+        __int64 a62,
+        __int64 a63)
+{
+  __asm { retnq   72B0h }
+}
+
+
+// === sub_89B73 @ 0x89b73 ===
+void __fastcall sub_89B73(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_89B27();
+}
+
+
+// === nullsub_51 @ 0x89bd8 ===
+__int64 nullsub_51()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_8E6CC @ 0x8e6cc ===
+void __fastcall sub_8E6CC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_8E6DD @ 0x8e6dd ===
+__int64 __fastcall sub_8E6DD(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_8E707(a1);
+}
+
+
+// === sub_8E707 @ 0x8e707 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_8E707()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_8E6CC();
+}
+
+
+// === sub_901AD @ 0x901ad ===
+void __fastcall sub_901AD()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_901C2 @ 0x901c2 ===
+__int64 __fastcall sub_901C2(__int64 a1)
+{
+  __readeflags();
+  return sub_901D0(a1);
+}
+
+
+// === sub_901D0 @ 0x901d0 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_901D0()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_901AD();
+}
+
+
+// === nullsub_52 @ 0x902ea ===
+void nullsub_52()
+{
+  ;
+}
+
+
+// === sub_912CA @ 0x912ca ===
+void __fastcall sub_912CA()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_91300 @ 0x91300 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_91300()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_912CA();
+}
+
+
+// === sub_91343 @ 0x91343 ===
+void sub_91343()
+{
+  __readeflags();
+  sub_91300();
+}
+
+
+// === sub_92028 @ 0x92028 ===
+void sub_92028()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROR8__(__ROR8__(0x973B7C776E616224LL, 33), 58) + 0x33D3BB6E5D6C49F2LL) - 0x211699D51A1A3694LL);
+}
+
+
+// === sub_92907 @ 0x92907 ===
+void __fastcall sub_92907()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_937CC @ 0x937cc ===
+void __fastcall sub_937CC()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_9380C @ 0x9380c ===
+// positive sp value has been detected, the output may be wrong!
+void sub_9380C()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_937CC();
+}
+
+
+// === sub_9383C @ 0x9383c ===
+void sub_9383C()
+{
+  __readeflags();
+  sub_9380C();
+}
+
+
+// === sub_9514C @ 0x9514c ===
+// positive sp value has been detected, the output may be wrong!
+void sub_9514C()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x9516D);
+}
+
+
+// === sub_95160 @ 0x95160 ===
+void __fastcall sub_95160(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_9514C();
+}
+
+
+// === nullsub_53 @ 0x95292 ===
+void nullsub_53()
+{
+  ;
+}
+
+
+// === sub_952B8 @ 0x952b8 ===
+__int64 __fastcall sub_952B8(__int64 a1, __int64 a2, unsigned int a3)
+{
+  return a3;
+}
+
+
+// === sub_95DE6 @ 0x95de6 ===
+void __fastcall sub_95DE6()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_95DF1 @ 0x95df1 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_95DF1()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_95DE6();
+}
+
+
+// === sub_95E1D @ 0x95e1d ===
+void sub_95E1D()
+{
+  __readeflags();
+  sub_95DF1();
+}
+
+
+// === sub_962FD @ 0x962fd ===
+void __fastcall sub_962FD()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_96347 @ 0x96347 ===
+void sub_96347()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_962FD();
+}
+
+
+// === sub_963F5 @ 0x963f5 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_963F5()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  JUMPOUT(0x96480);
+}
+
+
+// === sub_9640F @ 0x9640f ===
+void __fastcall sub_9640F(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  sub_963F5();
+}
+
+
+// === nullsub_54 @ 0x964e8 ===
+__int64 nullsub_54()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === nullsub_55 @ 0x9655f ===
+void nullsub_55()
+{
+  ;
+}
+
+
+// === sub_965DB @ 0x965db ===
+void __fastcall sub_965DB()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_96630 @ 0x96630 ===
+__int64 __fastcall sub_96630(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6, __int64 a7)
+{
+  __readeflags();
+  return sub_96644(a1);
+}
+
+
+// === sub_96644 @ 0x96644 ===
+// positive sp value has been detected, the output may be wrong!
+void sub_96644()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_965DB();
+}
+
+
+// === nullsub_56 @ 0x96880 ===
+__int64 nullsub_56()
+{
+  _BYTE retaddr[16]; // [rsp+0h] [rbp+0h]
+
+  return MK_FP(*(_WORD *)retaddr, *(_QWORD *)retaddr)();
+}
+
+
+// === sub_96A8B @ 0x96a8b ===
+void __fastcall sub_96A8B()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_96A9A @ 0x96a9a ===
+void sub_96A9A()
+{
+  unsigned __int64 v0; // kr00_8
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  sub_96A8B();
+}
+
+
+// === sub_96FEE @ 0x96fee ===
+void __fastcall sub_96FEE()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+
+
+// === sub_9704E @ 0x9704e ===
+// positive sp value has been detected, the output may be wrong!
+void sub_9704E()
+{
+  unsigned __int64 v0; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v0);
+  sub_96FEE();
+}
+
+
+// === sub_9705D @ 0x9705d ===
+void sub_9705D()
+{
+  __readeflags();
+  sub_9704E();
+}
+
+
+// === sub_98E87 @ 0x98e87 ===
+void __spoils<> sub_98E87()
+{
+  unsigned __int64 v0; // kr00_8
+  _UNKNOWN *retaddr; // [rsp+10h] [rbp+0h] BYREF
+
+  v0 = __readeflags();
+  __writeeflags(v0);
+  _InterlockedExchange64(
+    (volatile __int64 *)&retaddr,
+    *(_QWORD *)(__ROL8__(__ROL8__(0xC9EFF908136DDC3ELL, 43), 37) + 0x6F7EC93689D2EABLL) + 0x4A1023DE6613AD20LL);
+}
+
+
+// === sub_9962B @ 0x9962b ===
+void sub_9962B()
+{
+  ;
+}
+
+
+// === sub_9963F @ 0x9963f ===
+__int64 __fastcall sub_9963F(__int64 a1)
+{
+  __readeflags();
+  return sub_99664(a1);
+}
+
+
+// === sub_99664 @ 0x99664 ===
+// positive sp value has been detected, the output may be wrong!
+__int64 __fastcall sub_99664(__int64 a1, __int64 a2, __int64 a3)
+{
+  unsigned __int64 v4; // [rsp-8h] [rbp-8h]
+
+  __writeeflags(v4);
+  return ((__int64 (__fastcall *)(__int64, __int64, __int64))sub_9968D)(a1, a2, a3);
+}
+
+
+// === sub_9968D @ 0x9968d ===
+void __fastcall sub_9968D()
+{
+  __int64 v0; // rbx
+  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  _InterlockedExchange64((volatile __int64 *)&retaddr, v0);
+}
+

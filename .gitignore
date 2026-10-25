@@ -1,0 +1,22 @@
+﻿# Exclude ALL raw memory dumps and unpacked binaries
+unpack/
+unpack6/
+unpack7/
+
+# Exclude IDA databases (large binary)
+*.i64
+*.idb
+*.id0
+*.id1
+*.nam
+*.til
+
+# Exclude large string dumps (>10MB)
+ida_out/main_strings_utf16.txt
+ida_out/main_strings_ascii.txt
+
+# Exclude large binaries
+*.bin
+*.dmp
+
+# Keep: rebuild/, scripts/, ida_out/*.txt (pseudocode), *.md, plaintext/*.dll

@@ -1,0 +1,54 @@
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Professional 9.3\loaders\dos.dll)
+Possible file format: Portable executable for AMD64 (PE) (C:\Program Files\IDA Professional 9.3\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  2195456   268 8192 allocating memory for b-tree...
+  2195456   268 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  4653056            total memory allocated
+
+Loading file 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\plaintext\axonlogin.dll' into database...
+Detected file format: Portable executable for AMD64 (PE)
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (0000000180001000-0000000180038000) ... ... OK
+  1. Creating a new segment  (0000000180038000-000000018004F000) ... ... OK
+  2. Creating a new segment  (000000018004F000-0000000180053000) ... ... OK
+  3. Creating a new segment  (0000000180053000-0000000180056000) ... ... OK
+  4. Creating a new segment  (0000000180056000-0000000180057000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+Reading exception directory (.pdata)...
+Applying fixups...
+  5. Creating a new segment  (00000001800384B8-000000018004F000) ... ... OK
+Plan  FLIRT signature: Microsoft VisualC v7/14 64bit runtime
+autoload.cfg: vc64rtf.sig autoloads mssdk64_win7.til
+Type library 'mssdk64_win7' loaded. Applying types...
+Types applied to 144 names.
+Plan  FLIRT signature: SEH for vc64 7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\plaintext\axonlogin.dll' has been successfully loaded into the database.
+Flushing buffers, please wait...ok
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260213)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260213 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA is analysing the input file...
+You may start to explore the input file right now.
+C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\scripts\ida_export.py: invalid syntax (C:/Users/26346/Documents/deepseek-harness/default-workspace/axonskin_re/scripts/ida_export.py, line 1)
+Traceback (most recent call last):
+  File "C:\Program Files\IDA Professional 9.3\python\ida_idaapi.py", line 504, in IDAPython_ExecScript
+    code = compile(raw.decode(encoding), path, 'exec')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/Users/26346/Documents/deepseek-harness/default-workspace/axonskin_re/scripts/ida_export.py", line 1
+    // IDAPython headless script: load the reconstructed unpacked PE and export:
+    ^^
+SyntaxError: invalid syntax
+ -> OK
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...

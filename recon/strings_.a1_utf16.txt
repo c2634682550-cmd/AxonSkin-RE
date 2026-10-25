@@ -1,0 +1,3 @@
+﻿OCR_DET
+OCR_KEY
+OCR_REC

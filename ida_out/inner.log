@@ -1,0 +1,165 @@
+Database C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\plaintext\axon_inner.bin.i64 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  4997120   610 8192 allocating memory for b-tree...
+  1327104   162 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  6586368            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'axon_inner.bin' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260213)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260213 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+[+] loaded: C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\plaintext\axon_inner.bin
+[+] functions: 1063
+[+] key named functions:
+  0x180013b00 DllEntryPoint size=0x209
+[+] VirtualProtect IAT: 0x0
+[+] IsDebuggerPresent IAT: 0x0
+[+] InternetGetConnectedState IAT: 0x0
+[+] VirtualProtect callers: 0 at []
+[+] IsDebuggerPresent callers: 0 at []
+[+] InternetGetConnectedState callers: 0 at []
+The decompiler assumes that the segment '.rdata' is read-only because of its NAME.
+All data references to the segment will be replaced by constant values.
+This may lead to drastic changes in the decompiler output.
+If the segment is not read-only, please change the segment NAME.
+
+In general, the decompiler checks the segment permissions, class, and name
+to determine if it is read-only.
+ -> OK
+1800031B0: restored microcode from idb
+1800031B0: restored pseudocode from idb
+180003270: restored microcode from idb
+180003270: restored pseudocode from idb
+180003610: restored microcode from idb
+180003610: restored pseudocode from idb
+1800037B0: restored microcode from idb
+1800037B0: restored pseudocode from idb
+18000BB20: restored microcode from idb
+18000BB20: restored pseudocode from idb
+18000CCA0: restored microcode from idb
+18000CCA0: restored pseudocode from idb
+180012CC8: restored microcode from idb
+180012CC8: restored pseudocode from idb
+180013974: restored microcode from idb
+180013974: restored pseudocode from idb
+180014F1C: restored microcode from idb
+180014F1C: restored pseudocode from idb
+1800151FC: restored microcode from idb
+1800151FC: restored pseudocode from idb
+1800156FC: restored microcode from idb
+1800156FC: restored pseudocode from idb
+180015BC8: restored microcode from idb
+180015BC8: restored pseudocode from idb
+180015D08: restored microcode from idb
+180015D08: restored pseudocode from idb
+180015DE0: restored microcode from idb
+180015DE0: restored pseudocode from idb
+18001867C: restored microcode from idb
+18001867C: restored pseudocode from idb
+18001879C: restored microcode from idb
+18001879C: restored pseudocode from idb
+180018BEC: restored microcode from idb
+180018BEC: restored pseudocode from idb
+1800194DC: restored microcode from idb
+1800194DC: restored pseudocode from idb
+1800197D0: restored microcode from idb
+1800197D0: restored pseudocode from idb
+180019804: restored microcode from idb
+180019804: restored pseudocode from idb
+18001A09C: restored microcode from idb
+18001A09C: restored pseudocode from idb
+18001A200: restored microcode from idb
+18001A200: restored pseudocode from idb
+18001A390: restored microcode from idb
+18001A390: restored pseudocode from idb
+18001C4E8: restored microcode from idb
+18001C4E8: restored pseudocode from idb
+18001D2B8: restored microcode from idb
+18001D2B8: restored pseudocode from idb
+18001D33C: restored microcode from idb
+18001D33C: restored pseudocode from idb
+18001D3FC: restored microcode from idb
+18001D3FC: restored pseudocode from idb
+18001D49C: restored microcode from idb
+18001D49C: restored pseudocode from idb
+18001D524: restored microcode from idb
+18001D524: restored pseudocode from idb
+18001D5E8: restored microcode from idb
+18001D5E8: restored pseudocode from idb
+18001D688: restored microcode from idb
+18001D688: restored pseudocode from idb
+180021EDC: restored microcode from idb
+180021EDC: restored pseudocode from idb
+180022210: restored microcode from idb
+180022210: restored pseudocode from idb
+180026034: restored microcode from idb
+180026034: restored pseudocode from idb
+180026DA0: restored microcode from idb
+180026DA0: restored pseudocode from idb
+180028BC4: restored microcode from idb
+180028BC4: restored pseudocode from idb
+18002B410: restored microcode from idb
+18002B410: restored pseudocode from idb
+18002B664: restored microcode from idb
+18002B664: restored pseudocode from idb
+18002CF60: restored microcode from idb
+18002CF60: restored pseudocode from idb
+18002CF90: restored microcode from idb
+18002CF90: restored pseudocode from idb
+18002CFC0: restored microcode from idb
+18002CFC0: restored pseudocode from idb
+18002D224: restored microcode from idb
+18002D224: restored pseudocode from idb
+18002F428: restored microcode from idb
+18002F428: restored pseudocode from idb
+18002FA90: restored microcode from idb
+18002FA90: restored pseudocode from idb
+18002FB78: restored microcode from idb
+18002FB78: restored pseudocode from idb
+1800314EC: restored microcode from idb
+1800314EC: restored pseudocode from idb
+180031710: restored microcode from idb
+180031710: restored pseudocode from idb
+180032980: restored microcode from idb
+180032980: restored pseudocode from idb
+180032A60: restored microcode from idb
+180032A60: restored pseudocode from idb
+180032BF0: restored microcode from idb
+180032BF0: restored pseudocode from idb
+180033770: restored microcode from idb
+180033770: restored pseudocode from idb
+180033A40: restored microcode from idb
+180033A40: restored pseudocode from idb
+1800340EC: restored microcode from idb
+1800340EC: restored pseudocode from idb
+180034BE0: restored microcode from idb
+180034BE0: restored pseudocode from idb
+180034C80: restored microcode from idb
+180034C80: restored pseudocode from idb
+180034E2C: restored microcode from idb
+180034E2C: restored pseudocode from idb
+180034F5C: restored microcode from idb
+180034F5C: restored pseudocode from idb
+180035AC0: restored microcode from idb
+180035AC0: restored pseudocode from idb
+180035BA0: restored microcode from idb
+180035BA0: restored pseudocode from idb
+180035C20: restored microcode from idb
+180035C20: restored pseudocode from idb
+180035CE0: restored microcode from idb
+180035CE0: restored pseudocode from idb
+[+] decompiled 777 additional in .text + 1 key
+[+] DONE
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...

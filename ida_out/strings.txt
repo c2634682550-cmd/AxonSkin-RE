@@ -1,0 +1,1033 @@
+0x180038638	37	aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
+0x1800386e0	18	Unknown exception
+0x180038728	21	bad array new length
+0x180038740	16	string too long
+0x180038778	36	aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
+0x1800387c0	37	aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
+0x180038870	9	iostream
+0x1800388b0	9	bad cast
+0x1800388e0	16	bad locale name
+0x180038980	21	ios_base::badbit set
+0x180038998	22	ios_base::failbit set
+0x1800389b0	21	ios_base::eofbit set
+0x180038b40	9	S_MRN/f
+0x180038b4b	5	eHr,g
+0x180038b69	5	eHr,g
+0x180038b7a	5	bk{vF
+0x180038b93	8	SlQJT1Y%
+0x180038d13	5	SlQJT
+0x180038daa	6	(uaS3u
+0x180038eed	9	tN@b	gaS
+0x180038efb	7	l{vU_!
+0x180038f14	5	0R
+NP
+0x180038f38	6	S_MRaS
+0x180038f4d	5	0:ghV
+0x180038f53	7	xN&{!
+0x180038f60	6	S_MRaS
+0x180038f6f	5	v:ghV
+0x180038f75	7	xN&{!
+0x180038f81	6	ybk{vF
+0x180038fa5	9	tN@b	gaS
+0x180038fb3	7	l{vU_!
+0x180039050	9	S_MR{vU_
+0x18003907d	7	~!kpe(
+0x180039084	6	iRYO:
+0x180039096	6	/f&TMR
+0x1800390d5	7	~!kpe,
+0x1800390f0	9	S_MR{vU_
+0x18003910b	6	~Ncbd
+0x180039141	5	QiRYO
+0x180039149	7	~!kpe:
+0x18003915a	8	+T,g!k)
+0x18003916d	8	QiRYOMQ9
+0x180039179	7	~!kpe:
+0x18003918a	8	+T,g!k)
+0x18003919a	6	/f&TMR
+0x1800391b0	9	S_MR{vU_
+0x1800391e7	5	QiRYO
+0x1800391ef	7	~!kpe:
+0x180039200	8	+T,g!k)
+0x180039210	6	/f&TMR
+0x1800392a8	24	invalid string position
+0x1800392c0	37	aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
+0x1800392f3	6	{:gT
+0x1800393e8	37	aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
+0x180039433	6	~Hr,g
+0x180039443	5	T{vU_
+0x180039490	6	iRYO%
+0x1800394a0	6	iRYO%
+0x1800394bb	5	~!kpe
+0x1800394e8	6	iRYO%
+0x1800394fd	5	\,g:g
+0x180039510	6	iRYO%
+0x18003952b	5	~!kpe
+0x18003954b	5	\,g:g
+0x180039599	5	[:ghV
+0x1800395b1	5	[:ghV
+0x1800395b7	7	x^\'`
+
+0x1800395cd	5	v:ghV
+0x1800395ff	5	g/f&T
+0x180039617	5	[:ghV
+0x18003965d	7	~!kpe,
+0x1800396d1	5	~:ghV
+0x1800396e0	37	aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
+0x180039728	22	RegOpenKeyTransactedW
+0x180039740	24	RegCreateKeyTransactedW
+0x180039758	24	RegDeleteKeyTransactedW
+0x1800397d8	16	RegDeleteKeyExW
+0x180039d50	37	aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
+0x180039e28	13	atlthunk.dll
+0x180039e38	22	AtlThunk_AllocateData
+0x180039e50	18	AtlThunk_InitData
+0x180039e68	20	AtlThunk_DataToCode
+0x180039e80	18	AtlThunk_FreeData
+0x180039e98	15	bad allocation
+0x18003a680	8	success
+0x18003a688	29	address family not supported
+0x18003a6a8	15	address in use
+0x18003a6b8	22	address not available
+0x18003a6d0	18	already connected
+0x18003a6e8	23	argument list too long
+0x18003a700	23	argument out of domain
+0x18003a718	12	bad address
+0x18003a728	20	bad file descriptor
+0x18003a740	12	bad message
+0x18003a750	12	broken pipe
+0x18003a760	19	connection aborted
+0x18003a778	31	connection already in progress
+0x18003a798	19	connection refused
+0x18003a7b0	17	connection reset
+0x18003a7c8	18	cross device link
+0x18003a7e0	29	destination address required
+0x18003a800	24	device or resource busy
+0x18003a818	20	directory not empty
+0x18003a830	24	executable format error
+0x18003a848	12	file exists
+0x18003a858	15	file too large
+0x18003a868	18	filename too long
+0x18003a880	23	function not supported
+0x18003a898	17	host unreachable
+0x18003a8b0	19	identifier removed
+0x18003a8c8	22	illegal byte sequence
+0x18003a8e0	35	inappropriate io control operation
+0x18003a908	12	interrupted
+0x18003a918	17	invalid argument
+0x18003a930	13	invalid seek
+0x18003a940	9	io error
+0x18003a950	15	is a directory
+0x18003a960	13	message size
+0x18003a970	13	network down
+0x18003a980	14	network reset
+0x18003a990	20	network unreachable
+0x18003a9a8	16	no buffer space
+0x18003a9b8	17	no child process
+0x18003a9d0	8	no link
+0x18003a9d8	18	no lock available
+0x18003a9f0	21	no message available
+0x18003aa08	11	no message
+0x18003aa18	19	no protocol option
+0x18003aa30	19	no space on device
+0x18003aa48	20	no stream resources
+0x18003aa60	26	no such device or address
+0x18003aa80	15	no such device
+0x18003aa90	26	no such file or directory
+0x18003aab0	16	no such process
+0x18003aac0	16	not a directory
+0x18003aad0	13	not a socket
+0x18003aae0	13	not a stream
+0x18003aaf0	14	not connected
+0x18003ab00	18	not enough memory
+0x18003ab18	14	not supported
+0x18003ab28	19	operation canceled
+0x18003ab40	22	operation in progress
+0x18003ab58	24	operation not permitted
+0x18003ab70	24	operation not supported
+0x18003ab88	22	operation would block
+0x18003aba0	11	owner dead
+0x18003abb0	18	permission denied
+0x18003abc8	15	protocol error
+0x18003abd8	23	protocol not supported
+0x18003abf0	22	read only file system
+0x18003ac08	30	resource deadlock would occur
+0x18003ac28	31	resource unavailable try again
+0x18003ac48	20	result out of range
+0x18003ac60	22	state not recoverable
+0x18003ac78	15	stream timeout
+0x18003ac88	15	text file busy
+0x18003ac98	10	timed out
+0x18003aca8	30	too many files open in system
+0x18003acc8	20	too many files open
+0x18003ace0	15	too many links
+0x18003acf0	30	too many symbolic link levels
+0x18003ad10	16	value too large
+0x18003ad20	20	wrong protocol type
+0x18003ad38	14	unknown error
+0x18003b9a7	5		
+
+0x18003b9b5	5		
+
+0x18003b9c5	5		
+
+0x18003b9d3	5		
+
+0x18003b9e5	5		
+
+0x18003b9f3	5		
+
+0x18003ba03	5		
+
+0x18003ba11	5		
+
+0x18003bb97	5		
+
+0x18003bc97	5		
+
+0x18003bd17	5		
+
+0x18003bd57	5		
+
+0x18003bd77	5		
+
+0x18003bd87	5		
+
+0x18003bd97	5		
+
+0x18003bda7	5		
+
+0x18003bdb5	5		
+
+0x18003bdc5	5		
+
+0x18003bdd3	5		
+
+0x18003bde5	5		
+
+0x18003bdf3	5		
+
+0x18003be03	5		
+
+0x18003be11	5		
+
+0x18003be97	5		
+
+0x18003bf17	5		
+
+0x18003bf57	5		
+
+0x18003bf77	5		
+
+0x18003bf87	5		
+
+0x18003bf97	5		
+
+0x18003c017	5		
+
+0x18003c057	5		
+
+0x18003c077	5		
+
+0x18003c087	5		
+
+0x18003c097	5		
+
+0x18003c0d7	5		
+
+0x18003c0f7	5		
+
+0x18003c107	5		
+
+0x18003c117	5		
+
+0x18003c137	5		
+
+0x18003c147	5		
+
+0x18003c157	5		
+
+0x18003c167	5		
+
+0x18003c177	5		
+
+0x18003c187	5		
+
+0x18003c197	5		
+
+0x18003c1a7	5		
+
+0x18003c1b5	5		
+
+0x18003c1c5	5		
+
+0x18003c1d3	5		
+
+0x18003c1e5	5		
+
+0x18003c1f3	5		
+
+0x18003c203	5		
+
+0x18003c211	5		
+
+0x18003c217	5		
+
+0x18003c257	5		
+
+0x18003c277	5		
+
+0x18003c287	5		
+
+0x18003c297	5		
+
+0x18003c2d7	5		
+
+0x18003c2f7	5		
+
+0x18003c307	5		
+
+0x18003c317	5		
+
+0x18003c337	5		
+
+0x18003c347	5		
+
+0x18003c357	5		
+
+0x18003c367	5		
+
+0x18003c377	5		
+
+0x18003c387	5		
+
+0x18003c397	5		
+
+0x18003c3d7	5		
+
+0x18003c3f7	5		
+
+0x18003c407	5		
+
+0x18003c417	5		
+
+0x18003c437	5		
+
+0x18003c447	5		
+
+0x18003c457	5		
+
+0x18003c467	5		
+
+0x18003c477	5		
+
+0x18003c487	5		
+
+0x18003c497	5		
+
+0x18003c4b7	5		
+
+0x18003c4c7	5		
+
+0x18003c4d7	5		
+
+0x18003c4e7	5		
+
+0x18003c4f7	5		
+
+0x18003c507	5		
+
+0x18003c517	5		
+
+0x18003c527	5		
+
+0x18003c537	5		
+
+0x18003c547	5		
+
+0x18003c557	5		
+
+0x18003c567	5		
+
+0x18003c577	5		
+
+0x18003c587	5		
+
+0x18003c597	5		
+
+0x18003c5a7	5		
+
+0x18003c5b5	7		
+
+
+0x18003c5c5	7		
+
+
+0x18003c5d3	9		
+	
+
+0x18003c5e5	7		
+
+
+0x18003c5f3	9		
+	
+
+0x18003c603	9		
+	
+
+0x18003c611	5		
+
+0x18003c617	5		
+
+0x18003c626	6		
+
+
+0x18003c634	8		
+	
+
+0x18003c644	8		
+	
+
+0x18003c657	5		
+
+0x18003c664	8		
+	
+
+0x18003c677	5		
+
+0x18003c687	5		
+
+0x18003c697	5		
+
+0x18003c6a7	5	
+
+
+0x18003c6b5	7	
+	
+
+0x18003c6c5	7	
+	
+
+0x18003c6d7	5		
+
+0x18003c6e5	7	
+	
+
+0x18003c6f7	5		
+
+0x18003c707	5		
+
+0x18003c717	5		
+
+0x18003c726	6	
+	
+
+0x18003c737	5		
+
+0x18003c747	5		
+
+0x18003c757	5		
+
+0x18003c767	5		
+
+0x18003c777	5		
+
+0x18003c787	5		
+
+0x18003c797	5		
+
+0x18003c7a7	5		
+
+0x18003c7b5	7			
+
+0x18003c7c5	7			
+
+0x18003c7d7	5		
+
+0x18003c7e5	7			
+
+0x18003c7f7	5		
+
+0x18003c807	5		
+
+0x18003c817	5		
+
+0x18003c826	6			
+
+0x18003c837	5		
+
+0x18003c847	5		
+
+0x18003c857	5		
+
+0x18003c867	5		
+
+0x18003c877	5		
+
+0x18003c887	5		
+
+0x18003c897	5		
+
+0x18003c8a7	5		
+
+0x18003c8b7	5		
+
+0x18003c8c7	5		
+
+0x18003c8d7	5		
+
+0x18003c8e7	5		
+
+0x18003c8f7	5		
+
+0x18003c907	5		
+
+0x18003c917	5		
+
+0x18003c927	5		
+
+0x18003c937	5		
+
+0x18003c947	5		
+
+0x18003c957	5		
+
+0x18003c967	5		
+
+0x18003c977	5		
+
+0x18003c987	5		
+
+0x18003c997	5		
+
+0x18003c9b9	6	
+
+
+
+0x18003c9c9	6	
+
+
+
+0x18003c9d1	6	
+
+
+
+0x18003c9e9	6	
+
+
+
+0x18003c9f1	6	
+
+
+
+0x18003ca01	6	
+
+
+
+0x18003ca29	6	
+
+
+
+0x18003ca31	6	
+
+
+
+0x18003ca41	6	
+
+
+
+0x18003ca61	6	
+
+
+
+0x18003caa7	5		
+
+0x18003cab3	5		
+
+0x18003cb17	5		
+
+0x18003cb27	5		
+
+0x18003cb33	9		
+	
+
+0x18003cb44	8		
+	
+
+0x18003cb57	5		
+
+0x18003cb67	5		
+
+0x18003cb77	5		
+
+0x18003cb87	5		
+
+0x18003cb97	5		
+
+0x18003d4b7	5		
+
+0x18003d4d7	5		
+
+0x18003d4e7	5		
+
+0x18003d5a8	37	0123456789abcdefghijklmnopqrstuvwxyz
+0x18003d5d8	30	
+
+					
+0x18003d5f8	37	0123456789abcdefghijklmnopqrstuvwxyz
+0x18003d63f	7	
+0x18003d7f0	14	bad exception
+0x18003df10	9	__based(
+0x18003df20	8	__cdecl
+0x18003df28	10	__stdcall
+0x18003df38	11	__thiscall
+0x18003df48	11	__fastcall
+0x18003df58	13	__vectorcall
+0x18003df68	16	__preserve_none
+0x18003df78	10	__clrcall
+0x18003df84	7	__eabi
+0x18003df90	10	__swift_1
+0x18003dfa0	10	__swift_2
+0x18003dfb0	10	__swift_3
+0x18003dfc0	8	__ptr64
+0x18003dfc8	11	__restrict
+0x18003dfd8	12	__unaligned
+0x18003dfe8	10	restrict(
+0x18003e000	8	 delete
+0x18003e028	9	operator
+0x18003e0a8	10	`vftable'
+0x18003e0b8	10	`vbtable'
+0x18003e0c8	8	`vcall'
+0x18003e0d0	9	`typeof'
+0x18003e0e0	21	`local static guard'
+0x18003e0f8	9	`string'
+0x18003e108	19	`vbase destructor'
+0x18003e120	29	`vector deleting destructor'
+0x18003e140	30	`default constructor closure'
+0x18003e160	29	`scalar deleting destructor'
+0x18003e180	30	`vector constructor iterator'
+0x18003e1a0	29	`vector destructor iterator'
+0x18003e1c0	36	`vector vbase constructor iterator'
+0x18003e1e8	27	`virtual displacement map'
+0x18003e208	33	`eh vector constructor iterator'
+0x18003e230	32	`eh vector destructor iterator'
+0x18003e250	39	`eh vector vbase constructor iterator'
+0x18003e278	27	`copy constructor closure'
+0x18003e298	16	`udt returning'
+0x18003e2ac	6	`RTTI
+0x18003e2b8	16	`local vftable'
+0x18003e2c8	36	`local vftable constructor closure'
+0x18003e2ec	7	 new[]
+0x18003e2f8	10	 delete[]
+0x18003e308	15	`omni callsig'
+0x18003e318	27	`placement delete closure'
+0x18003e338	29	`placement delete[] closure'
+0x18003e358	38	`managed vector constructor iterator'
+0x18003e380	37	`managed vector destructor iterator'
+0x18003e3a8	38	`eh vector copy constructor iterator'
+0x18003e3d0	44	`eh vector vbase copy constructor iterator'
+0x18003e400	27	`dynamic initializer for '
+0x18003e420	33	`dynamic atexit destructor for '
+0x18003e448	35	`vector copy constructor iterator'
+0x18003e470	41	`vector vbase copy constructor iterator'
+0x18003e4a0	43	`managed vector copy constructor iterator'
+0x18003e4d0	28	`local static thread guard'
+0x18003e4f0	13	operator "" 
+0x18003e500	18	operator co_await
+0x18003e518	12	operator<=>
+0x18003e528	18	 Type Descriptor'
+0x18003e540	28	 Base Class Descriptor at (
+0x18003e560	19	 Base Class Array'
+0x18003e578	29	 Class Hierarchy Descriptor'
+0x18003e598	26	 Complete Object Locator'
+0x18003e5b8	22	`anonymous namespace'
+0x18003e698	9	FlsAlloc
+0x18003e6b0	8	FlsFree
+0x18003e6c0	12	FlsGetValue
+0x18003e6d8	12	FlsSetValue
+0x18003e6f0	28	InitializeCriticalSectionEx
+0x18003e906	9	
+0x18003ea11	7	
+0x18003eae0	7	(null)
+0x18003ee77	5		
+
+0x18003ee90	95	 !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+0x18003eff7	5		
+
+0x18003f010	95	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+0x18003f44c	7	[aOni*{
+0x18003f523	5	eLK(w
+0x18003f58f	5	FEMh
+0x18003f62d	6	~ $s%r
+0x18003f63b	7	@b;zO]
+0x18003f754	5	iu+-,
+0x18003f7c5	5	obwQ4
+0x18003fa17	6	v2!L.2
+0x18003fb9a	5	^<V7w
+0x18003fe10	15	CorExitProcess
+0x18003ff76	5		
+
+0x18003ff8f	95	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+0x18004040c	7	Sunday
+0x180040414	7	Monday
+0x180040420	8	Tuesday
+0x180040428	10	Wednesday
+0x180040438	9	Thursday
+0x180040444	7	Friday
+0x180040450	9	Saturday
+0x180040490	8	January
+0x180040498	9	February
+0x1800404a4	6	March
+0x1800404ac	6	April
+0x1800404c4	7	August
+0x1800404d0	10	September
+0x1800404e0	8	October
+0x1800404e8	9	November
+0x1800404f8	9	December
+0x180040510	9	MM/dd/yy
+0x180040520	20	dddd, MMMM dd, yyyy
+0x180040538	9	HH:mm:ss
+0x180040840	10	NAN(SNAN)
+0x180040850	10	nan(snan)
+0x180040860	9	NAN(IND)
+0x180040870	9	nan(ind)
+0x18004087c	6	e+000
+0x180040e80	16	AreFileApisANSI
+0x180040e98	16	CompareStringEx
+0x180040eb0	20	EnumSystemLocalesEx
+0x180040ed0	13	FlsGetValue2
+0x180040ee8	16	GetDateFormatEx
+0x180040f00	16	GetLocaleInfoEx
+0x180040f18	16	GetTimeFormatEx
+0x180040f30	25	GetUserDefaultLocaleName
+0x180040f58	18	IsValidLocaleName
+0x180040f78	14	LCMapStringEx
+0x180040f90	17	LCIDToLocaleName
+0x180040fb0	17	LocaleNameToLCID
+0x180040fc8	37	AppPolicyGetProcessTerminationMethod
+0x180041044	6	UTF-8
+0x180041050	16	UTF-16LEUNICODE
+0x180041098	6	log10
+0x1800420f0	6	1#INF
+0x1800420f8	7	1#QNAN
+0x180042100	7	1#SNAN
+0x180042108	6	1#IND
+0x180045ecf	6	=imb;D
+0x180046039	8	1<.	/>:
+0x18004607e	6	/>58d%
+0x1800460b6	5	!>6'Y
+0x1800460c7	6	>jtm}S
+0x18004611e	6	)>6{1n
+0x18004612a	7	r	Vr.>T
+0x18004613c	6	+f)>0'
+0x18004618b	5	Lj[;>
+0x1800461ae	5	3>fvw
+0x1800461bc	6	;H9>&X
+0x1800461e2	7	*StO9>T
+0x18004620e	5	.>Tu
+
+0x18004621d	5	p>%@
+0x18004622c	6	n03>Pu
+0x180046302	7	K~Je#>!
+0x18004633b	5	+M<7>
+0x180046381	9	
+"Ic(>\,
+0x1800463db	7	bp(=>?g
+0x18004647e	5	6>J`
+0x180046485	5	?>!T
+0x18004648d	6	4<>0A
+0x18004649c	12	BC?>6t9^	c:>
+0x1800464f5	5	BF>^G
+0x180046505	6	K&>.yC
+0x180046513	6	 'L>[
+0x18004651c	6	.xJ>Hf
+0x180046523	6	y\PD>!
+0x180046532	6	|b=})>
+0x180046543	7	c [1>H'
+0x180046582	6	uzKs@>
+0x18004659e	6	3>N;kU
+0x1800465cc	7		kE>fvw
+0x18004660e	5	A>pP&
+0x180046614	8	V6E>`"(5
+0x18004668c	5	0iN>/
+0x18004669c	5	+h->|
+0x1800466ae	5	@>%>b
+0x180046a3f	5	?d!Y
+0x180046aaf	5	?:kP<
+0x180046abf	7	?UUUUUU
+0x180046b47	5	?f`Y4
+0x180046b77	5	?QY^&
+0x180046d7f	5	?'u_
+0x180046ea7	6	?7zQ6$
+0x1800492f4	9	.text$di
+0x180049308	9	.text$mn
+0x18004931c	12	.text$mn$00
+0x180049330	12	.text$mn$21
+0x180049344	8	.text$x
+0x180049354	9	.text$yd
+0x180049368	9	.idata$5
+0x18004937c	7	.00cfg
+0x18004938c	9	.CRT$XCA
+0x1800493a0	9	.CRT$XCC
+0x1800493b4	9	.CRT$XCL
+0x1800493c8	9	.CRT$XCU
+0x1800493dc	9	.CRT$XCZ
+0x1800493f0	9	.CRT$XIA
+0x180049404	9	.CRT$XIC
+0x180049418	9	.CRT$XIZ
+0x18004942c	9	.CRT$XPA
+0x180049440	9	.CRT$XPX
+0x180049454	10	.CRT$XPXA
+0x180049468	9	.CRT$XPZ
+0x18004947c	9	.CRT$XTA
+0x180049490	9	.CRT$XTZ
+0x1800494a4	7	.rdata
+0x1800494b4	10	.rdata$00
+0x1800494c8	9	.rdata$r
+0x1800494dc	14	.rdata$voltmd
+0x1800494f4	14	.rdata$zzzdbg
+0x18004950c	9	.rtc$IAA
+0x180049520	9	.rtc$IZZ
+0x180049534	9	.rtc$TAA
+0x180049548	9	.rtc$TZZ
+0x18004955c	7	.xdata
+0x18004956c	9	.xdata$x
+0x180049580	8	ATL$__a
+0x180049590	8	ATL$__z
+0x1800495a0	7	.edata
+0x1800495b0	9	.idata$2
+0x1800495c4	9	.idata$3
+0x1800495d8	9	.idata$4
+0x1800495ec	9	.idata$6
+0x180049600	6	.data
+0x180049610	8	.data$r
+0x180049620	9	.data$rs
+0x180049644	7	.pdata
+0x180049654	9	.fptable
+0x180049668	9	.rsrc$01
+0x18004967c	9	.rsrc$02
+0x180049f24	6	
+Y	]
+
+0x18004a5d3	6	@08N$P
+0x18004a631	6	@08~$P
+0x18004a6e5	6	P08~$P
+0x18004d082	14	AxonLogin.dll
+0x18004d090	11	SP_Init_v2
+0x18004d5fa	17	UnregisterClassW
+0x18004d60e	10	wsprintfW
+0x18004d61a	13	SendMessageW
+0x18004d62a	11	ShowWindow
+0x18004d638	16	DialogBoxParamW
+0x18004d64a	10	EndDialog
+0x18004d656	11	GetDlgItem
+0x18004d664	16	GetActiveWindow
+0x18004d676	9	SetTimer
+0x18004d682	10	KillTimer
+0x18004d68e	13	EnableWindow
+0x18004d69e	15	SetWindowTextW
+0x18004d6b0	15	GetWindowTextW
+0x18004d6c2	21	GetWindowTextLengthW
+0x18004d6da	12	MessageBoxW
+0x18004d6e8	18	SetWindowLongPtrW
+0x18004d6fc	17	IsDialogMessageW
+0x18004d710	19	MessageBoxTimeoutW
+0x18004d726	15	DefWindowProcW
+0x18004d738	14	DestroyWindow
+0x18004d748	10	CharNextW
+0x18004d752	11	USER32.dll
+0x18004d760	21	InitCommonControlsEx
+0x18004d776	13	COMCTL32.dll
+0x18004d786	15	CoUninitialize
+0x18004d798	17	CoCreateInstance
+0x18004d7ac	15	CoTaskMemAlloc
+0x18004d7be	17	CoTaskMemRealloc
+0x18004d7d2	14	CoTaskMemFree
+0x18004d7e2	13	CoInitialize
+0x18004d7f0	10	ole32.dll
+0x18004d7fa	13	OLEAUT32.dll
+0x18004d80a	14	ShellExecuteW
+0x18004d81a	15	ExtractIconExW
+0x18004d82a	12	SHELL32.dll
+0x18004d838	12	RegCloseKey
+0x18004d846	16	RegCreateKeyExW
+0x18004d858	14	RegDeleteKeyW
+0x18004d868	16	RegDeleteValueW
+0x18004d87a	14	RegEnumKeyExW
+0x18004d88a	14	RegOpenKeyExW
+0x18004d89a	17	RegQueryInfoKeyW
+0x18004d8ae	15	RegSetValueExW
+0x18004d8be	13	ADVAPI32.dll
+0x18004d8ce	14	DecodePointer
+0x18004d8de	13	GetLastError
+0x18004d8ee	12	HeapDestroy
+0x18004d8fc	10	HeapAlloc
+0x18004d908	12	HeapReAlloc
+0x18004d916	9	HeapFree
+0x18004d922	9	HeapSize
+0x18004d92e	15	GetProcessHeap
+0x18004d940	28	InitializeCriticalSectionEx
+0x18004d95e	22	DeleteCriticalSection
+0x18004d976	19	GetModuleFileNameW
+0x18004d98c	21	FileTimeToSystemTime
+0x18004d9a4	20	MultiByteToWideChar
+0x18004d9ba	20	WideCharToMultiByte
+0x18004d9d0	12	CreateFileW
+0x18004d9de	12	DeleteFileA
+0x18004d9ec	10	WriteFile
+0x18004d9f8	12	CloseHandle
+0x18004da06	15	RaiseException
+0x18004da18	13	SetLastError
+0x18004da28	21	EnterCriticalSection
+0x18004da40	21	LeaveCriticalSection
+0x18004da58	6	Sleep
+0x18004da60	12	ExitProcess
+0x18004da6e	19	GetCurrentThreadId
+0x18004da84	15	CreateProcessW
+0x18004da96	15	GetTickCount64
+0x18004daa8	16	FindResourceExW
+0x18004daba	19	GetModuleFileNameA
+0x18004dad0	13	LoadResource
+0x18004dae0	13	LockResource
+0x18004daf0	15	SizeofResource
+0x18004db02	14	FindResourceW
+0x18004db12	12	FreeLibrary
+0x18004db20	17	GetModuleHandleW
+0x18004db34	15	GetProcAddress
+0x18004db46	15	LoadLibraryExW
+0x18004db58	10	lstrcmpiW
+0x18004db64	18	IsDebuggerPresent
+0x18004db78	19	OutputDebugStringW
+0x18004db8e	14	EncodePointer
+0x18004db9e	20	InitializeSListHead
+0x18004dbb4	25	InterlockedPopEntrySList
+0x18004dbd0	26	InterlockedPushEntrySList
+0x18004dbec	18	GetCurrentProcess
+0x18004dc00	22	FlushInstructionCache
+0x18004dc18	13	VirtualAlloc
+0x18004dc28	12	VirtualFree
+0x18004dc36	15	LoadLibraryExA
+0x18004dc46	13	KERNEL32.dll
+0x18004dc56	14	LCMapStringEx
+0x18004dc66	15	GetStringTypeW
+0x18004dc78	10	GetCPInfo
+0x18004dc84	18	RtlCaptureContext
+0x18004dc98	23	RtlLookupFunctionEntry
+0x18004dcb2	17	RtlVirtualUnwind
+0x18004dcc6	25	UnhandledExceptionFilter
+0x18004dce2	28	SetUnhandledExceptionFilter
+0x18004dd00	17	TerminateProcess
+0x18004dd14	26	IsProcessorFeaturePresent
+0x18004dd30	16	GetStartupInfoW
+0x18004dd42	24	QueryPerformanceCounter
+0x18004dd5c	20	GetCurrentProcessId
+0x18004dd72	24	GetSystemTimeAsFileTime
+0x18004dd8c	18	RtlPcToFileHeader
+0x18004dda0	12	RtlUnwindEx
+0x18004ddae	22	InterlockedFlushSList
+0x18004ddc6	38	InitializeCriticalSectionAndSpinCount
+0x18004ddee	9	TlsAlloc
+0x18004ddfa	12	TlsGetValue
+0x18004de08	12	TlsSetValue
+0x18004de16	8	TlsFree
+0x18004de20	19	GetModuleHandleExW
+0x18004de36	13	GetStdHandle
+0x18004de46	12	GetFileType
+0x18004de54	9	FlsAlloc
+0x18004de60	12	FlsGetValue
+0x18004de6e	12	FlsSetValue
+0x18004de7c	8	FlsFree
+0x18004de86	15	VirtualProtect
+0x18004de98	13	LCMapStringW
+0x18004dea8	15	GetLocaleInfoW
+0x18004deba	14	IsValidLocale
+0x18004deca	19	GetUserDefaultLCID
+0x18004dee0	19	EnumSystemLocalesW
+0x18004def6	17	FlushFileBuffers
+0x18004df0a	19	GetConsoleOutputCP
+0x18004df20	15	GetConsoleMode
+0x18004df32	9	ReadFile
+0x18004df3e	14	GetFileSizeEx
+0x18004df4e	17	SetFilePointerEx
+0x18004df62	13	ReadConsoleW
+0x18004df72	10	FindClose
+0x18004df7e	17	FindFirstFileExW
+0x18004df92	14	FindNextFileW
+0x18004dfa2	16	IsValidCodePage
+0x18004dfb4	7	GetACP
+0x18004dfbe	9	GetOEMCP
+0x18004dfca	16	GetCommandLineA
+0x18004dfdc	16	GetCommandLineW
+0x18004dfee	23	GetEnvironmentStringsW
+0x18004e008	24	FreeEnvironmentStringsW
+0x18004e022	13	SetStdHandle
+0x18004e032	14	WriteConsoleW
+0x18004e042	13	SetEndOfFile
+0x18004e052	10	RtlUnwind
+0x18004f90a	27	                          
+0x18004f9ea	27	abcdefghijklmnopqrstuvwxyz
+0x18004fa0a	27	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0x18004fb22	27	                          
+0x18004fc11	27	abcdefghijklmnopqrstuvwxyz
+0x18004fc31	27	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0x18004fdf0	24	.?AVCAtlException@ATL@@
+0x18004fe18	20	.?AVexception@std@@
+0x18004fe40	31	.?AVbad_array_new_length@std@@
+0x18004fe70	20	.?AVbad_alloc@std@@
+0x18004fe98	24	.?AVruntime_error@std@@
+0x18004fec0	23	.?AVsystem_error@std@@
+0x18004fee8	24	.?AV_System_error@std@@
+0x18004ff10	19	.?AVbad_cast@std@@
+0x18004ff38	27	.?AVfailure@ios_base@std@@
+0x18004ff68	22	.?AVlogic_error@std@@
+0x18004ff90	23	.?AVlength_error@std@@
+0x18004ffb8	23	.?AVout_of_range@std@@
+0x18004ffe0	24	.?AVbad_exception@std@@
+0x180050010	21	.?AVCWin32Heap@ATL@@
+0x180050038	21	.?AUIAtlMemMgr@ATL@@
+0x180050060	24	.?AUIAtlStringMgr@ATL@@
+0x180050088	24	.?AVCAtlStringMgr@ATL@@
+0x1800500b0	25	.?AVCMessageFilter@WTL@@
+0x1800500e0	23	.?AVCIdleHandler@WTL@@
+0x180050108	22	.?AVCMessageMap@ATL@@
+0x180050130	43	.?AV?$CWindowImplRoot@VCWindow@ATL@@@ATL@@
+0x180050170	18	.?AVCWindow@ATL@@
+0x180050198	44	.?AV?$CDialogImplBaseT@VCWindow@ATL@@@ATL@@
+0x1800501d8	19	.?AVios_base@std@@
+0x180050200	20	.?AV?$_Iosb@H@std@@
+0x180050228	46	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+0x180050270	52	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+0x1800502c0	50	.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+0x180050310	50	.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+0x180050360	50	.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+0x1800503b0	51	.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+0x180050400	51	.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+0x180050448	25	.?AVerror_category@std@@
+0x180050478	36	.?AV_Iostream_error_category2@std@@
+0x1800504b0	22	.?AV_Facet_base@std@@
+0x1800504d8	23	.?AVfacet@locale@std@@
+0x180050500	26	.?AU_Crt_new_delete@std@@
+0x180050530	23	.?AVcodecvt_base@std@@
+0x180050558	21	.?AUctype_base@std@@
+0x180050580	20	.?AV?$ctype@D@std@@
+0x1800505a8	23	.?AVDlg_OnlineClient@@
+0x1800505d0	58	.?AV?$CDialogImpl@VDlg_OnlineClient@@VCWindow@ATL@@@ATL@@
+0x180050620	42	.?AV?$CUpdateUI@VDlg_OnlineClient@@@WTL@@
+0x180050660	24	.?AVCUpdateUIBase@WTL@@
+0x180050688	17	.?AVDlg_RMBind@@
+0x1800506b0	52	.?AV?$CDialogImpl@VDlg_RMBind@@VCWindow@ATL@@@ATL@@
+0x1800506f8	36	.?AV?$CUpdateUI@VDlg_RMBind@@@WTL@@
+0x180050730	35	.?AV?$codecvt@DDU_Mbstatet@@@std@@
+0x180050768	15	.?AUIUnknown@@
+0x180050788	21	.?AUIRegistrarBase@@
+0x1800507b0	21	.?AVCAtlModule@ATL@@
+0x1800507d8	24	.?AU_ATL_MODULE70@ATL@@
+0x180050800	21	.?AVCComModule@ATL@@
+0x180050828	42	.?AV?$CAtlModuleT@VCComModule@ATL@@@ATL@@
+0x180050868	21	.?AVCRegObject@ATL@@
+0x180050890	23	.?AVCMessageLoop@WTL@@
+0x1800508b8	21	.?AVCAppModule@WTL@@
+0x1800508e0	16	.?AVDlg_Login@@
+0x180050900	51	.?AV?$CDialogImpl@VDlg_Login@@VCWindow@ATL@@@ATL@@
+0x180050948	35	.?AV?$CUpdateUI@VDlg_Login@@@WTL@@
+0x180050980	25	.?AV_Locimp@locale@std@@
+0x1800509b0	16	.?AVtype_info@@

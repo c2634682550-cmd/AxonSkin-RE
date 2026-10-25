@@ -1,0 +1,65 @@
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Professional 9.3\loaders\dos.dll)
+Possible file format: Portable executable for AMD64 (PE) (C:\Program Files\IDA Professional 9.3\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  2260992   276 8192 allocating memory for b-tree...
+  2260992   276 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  4784128            total memory allocated
+
+Loading file 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\plaintext\axon_inner.bin' into database...
+Detected file format: Portable executable for AMD64 (PE)
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (0000000180001000-0000000180037000) ... ... OK
+  1. Creating a new segment  (0000000180037000-000000018004D000) ... ... OK
+  2. Creating a new segment  (000000018004D000-0000000180051000) ... ... OK
+  3. Creating a new segment  (0000000180051000-0000000180054000) ... ... OK
+  4. Creating a new segment  (0000000180054000-0000000180055000) ... ... OK
+Reading exports directory...
+Can't find translation for relative virtual address 000B5414, continue? -> ~Y~es
+Number of exported names 264705 is incorrect, maximum possible value is 12. Do you want to continue with the new value? -> ~Y~es
+Number of exported addresses 1880125972 is incorrect, maximum possible value is 19. Do you want to continue with the new value? -> ~Y~es
+Reading imports directory...
+Some imported modules will not be visible
+because the IAT is located outside of memory range of the input file. -> OK
+Reading exception directory (.pdata)...
+Applying fixups...
+18004BF40: export table is corrupted
+Number of exported names 264705 is incorrect, maximum possible value is 12. Do you want to continue with the new value? -> ~Y~es
+Number of exported addresses 1880125972 is incorrect, maximum possible value is 19. Do you want to continue with the new value? -> ~Y~es
+  5. Creating a new segment  (0000000180037498-000000018004D000) ... ... OK
+Type library 'mssdk64_win7' loaded. Applying types...
+Types applied to 0 names.
+Plan  FLIRT signature: SEH for vc64 7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\plaintext\axon_inner.bin' has been successfully loaded into the database.
+Flushing buffers, please wait...ok
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260213)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260213 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc64 7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+total funcs: 1062
+The decompiler assumes that the segment '.rdata' is read-only because of its NAME.
+All data references to the segment will be replaced by constant values.
+This may lead to drastic changes in the decompiler output.
+If the segment is not read-only, please change the segment NAME.
+
+In general, the decompiler checks the segment permissions, class, and name
+to determine if it is read-only.
+ -> OK
+decompiled 777 in .text
+done
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...

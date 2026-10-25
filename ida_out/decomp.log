@@ -1,0 +1,46 @@
+Database C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\plaintext\axonlogin.dll.i64 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  2129920   260 8192 allocating memory for b-tree...
+  1335296   163 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  3727360            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'axonlogin.dll' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260213)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260213 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+total funcs: 1079
+The decompiler assumes that the segment '.idata' is read-only because of its NAME.
+All data references to the segment will be replaced by constant values.
+This may lead to drastic changes in the decompiler output.
+If the segment is not read-only, please change the segment NAME.
+
+In general, the decompiler checks the segment permissions, class, and name
+to determine if it is read-only.
+ -> OK
+The decompiler assumes that the segment '.rdata' is read-only because of its NAME.
+All data references to the segment will be replaced by constant values.
+This may lead to drastic changes in the decompiler output.
+If the segment is not read-only, please change the segment NAME.
+
+In general, the decompiler checks the segment permissions, class, and name
+to determine if it is read-only.
+ -> OK
+180014F98: restored microcode from idb
+180014F98: restored pseudocode from idb
+180022390: restored microcode from idb
+180022390: restored pseudocode from idb
+decompiled 796 in .text
+done
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...

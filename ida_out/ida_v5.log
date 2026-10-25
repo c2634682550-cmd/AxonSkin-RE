@@ -1,0 +1,106 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+ 58671104  7162 8192 allocating memory for b-tree...
+ 58671104  7162 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+117604352            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+Loading file 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\unpack7\AxonSkin_decrypted_text.bin' into database...
+Detected file format: Binary file
+  0. Creating a new segment  (0000000000000000-0000000000DFD000) ... ... OK
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+Flushing buffers, please wait...ok
+File 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\unpack7\AxonSkin_decrypted_text.bin' has been successfully loaded into the database.
+The loaded binary file can be disassembled in various modes.
+Please select the desired mode: -> ~6~4-bit mode
+Patfind: Attempting to load pattern file: C:\Program Files\IDA Professional 9.3\cfg\ghidra_patterns\x86\data\patterns\x86-64win_patterns.xml 
+Patfind: Possible function found at 0000000000DC5C96, pattern 24548948.
+Patfind: Possible function found at 0000000000DC83D3, pattern 24548948.
+Patfind: Possible function found at 0000000000DE1247, pattern 24548948.
+Patfind: Possible function found at 0000000000DFB4CA, pattern 24448948.
+Patfind: Found 4 functions, in 0.592857 seconds
+Flushing buffers, please wait...ok
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260213)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260213 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA is analysing the input file...
+You may start to explore the input file right now.
+[*] Input: C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\unpack7\AxonSkin_decrypted_text.bin
+[*] ImageBase: 0x0
+[*] Range: 0x0 - 0xdfd000
+[*] First bytes: b90e34d19581479eac4d90005d52b4a11ea38c0115c3f57ab466d51263e2215e
+[*] Segment: 0x0-0xdfd000 name=seg000
+[!] Processor set failed: module 'ida_idaapi' has no attribute 'get_inf_structure'
+[*] Scanning for prologues 48 89 5C 24...
+[*] Total prologues: 0
+The initial autoanalysis has been finished.
+[*] Functions: 6
+[*] Saved: C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\ida_out\a1_func_list.txt
+[*] Decompiling 6 functions...
+Assuming __fastcall calling convention by default
+The target compiler was not specified in Options, Compiler.
+The decompiler set it based on the input file format -> OK
+[*] Pseudocode: C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\ida_out\a1_pseudocode.txt (5/6)
+[*] DONE
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+ 58671104  7162 8192 allocating memory for b-tree...
+ 58671104  7162 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+117604352            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+Loading file 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\unpack7\AxonSkin_decrypted_text.bin' into database...
+Detected file format: Binary file
+  0. Creating a new segment  (0000000000000000-0000000000DFD000) ... ... OK
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+Flushing buffers, please wait...ok
+File 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\unpack7\AxonSkin_decrypted_text.bin' has been successfully loaded into the database.
+The loaded binary file can be disassembled in various modes.
+Please select the desired mode: -> ~6~4-bit mode
+Patfind: Attempting to load pattern file: C:\Program Files\IDA Professional 9.3\cfg\ghidra_patterns\x86\data\patterns\x86-64win_patterns.xml 
+Patfind: Possible function found at 0000000000DC5C96, pattern 24548948.
+Patfind: Possible function found at 0000000000DC83D3, pattern 24548948.
+Patfind: Possible function found at 0000000000DE1247, pattern 24548948.
+Patfind: Possible function found at 0000000000DFB4CA, pattern 24448948.
+Patfind: Found 4 functions, in 0.568020 seconds
+Flushing buffers, please wait...ok
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260213)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260213 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA is analysing the input file...
+You may start to explore the input file right now.
+[*] ImageBase: 0x0
+[*] Range: 0x0 - 0xdfd000
+[*] LFLAGS: 0x207
+[*] Set LFLAGS: 0x207 -> 0x247
+[!] Set 64-bit failed: module 'idc' has no attribute 'SETPROC_FORCE'
+[*] Scanning for prologues 48 89 5C 24...
+[*] Total prologues found: 0
+The initial autoanalysis has been finished.
+[*] Functions: 6
+[*] Saved: C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\ida_out\a1_func_list.txt
+[*] Decompiling 6...
+Assuming __fastcall calling convention by default
+The target compiler was not specified in Options, Compiler.
+The decompiler set it based on the input file format -> OK
+[*] Pseudocode: C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\ida_out\a1_pseudocode.txt (5/6)
+[*] DONE
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...

@@ -1,0 +1,120 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+ 66158592  8076 8192 allocating memory for b-tree...
+ 66158592  8076 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+132579328            total memory allocated
+
+Loading file 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\unpack\stub_rr4_mem.bin' into database...
+Detected file format: Binary file
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (0000000000000000-0000000000FC6000) ... ... OK
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+Flushing buffers, please wait...ok
+File 'C:\Users\26346\Documents\deepseek-harness\default-workspace\axonskin_re\unpack\stub_rr4_mem.bin' has been successfully loaded into the database.
+The loaded binary file can be disassembled in various modes.
+Please select the desired mode: -> ~6~4-bit mode
+Patfind: Attempting to load pattern file: C:\Program Files\IDA Professional 9.3\cfg\ghidra_patterns\x86\data\patterns\x86-64win_patterns.xml 
+Patfind: Possible function found at 000000000009A62B, pattern 24448948.
+Patfind: Possible function found at 000000000009E172, pattern 245c8948.
+Patfind: Possible function found at 00000000000A00C7, pattern 247c8948.
+Patfind: Possible function found at 00000000000A8D66, pattern 24448948.
+Patfind: Possible function found at 00000000000B0AA1, pattern 244c8948.
+Patfind: Possible function found at 00000000000B0EBD, pattern 247c8948.
+Patfind: Possible function found at 00000000000CEBC3, pattern 246c8948.
+Patfind: Possible function found at 00000000000F5B84, pattern 244c8948.
+Patfind: Possible function found at 0000000000101B20, pattern 24748948.
+Patfind: Possible function found at 0000000000107D1C, pattern 245c8948.
+Patfind: Possible function found at 0000000000108DDB, pattern 24548948.
+Patfind: Possible function found at 000000000010D998, pattern 24748948.
+Patfind: Possible function found at 000000000011A05F, pattern 247c8948.
+Patfind: Possible function found at 0000000000128411, pattern 24448948.
+Patfind: Possible function found at 000000000012A41C, pattern 24448948.
+Patfind: Possible function found at 000000000012C3C8, pattern 247c8948.
+Patfind: Possible function found at 000000000012EE9C, pattern 24448948.
+Patfind: Possible function found at 000000000014A61E, pattern 24548948.
+Patfind: Possible function found at 000000000015102B, pattern 24448948.
+Patfind: Possible function found at 0000000000160CC9, pattern 247c8948.
+Patfind: Possible function found at 0000000000162D75, pattern 245c8948.
+Patfind: Possible function found at 000000000016812B, pattern 245c8948.
+Patfind: Possible function found at 000000000016D4D7, pattern 24748948.
+Patfind: Possible function found at 000000000017111F, pattern 247c8948.
+Patfind: Possible function found at 0000000000174FDC, pattern 247c8948.
+Patfind: Possible function found at 0000000000179A6C, pattern 246c8948.
+Patfind: Possible function found at 00000000001A6E45, pattern 245c8948.
+Patfind: Possible function found at 00000000001ADAEB, pattern 24548948.
+Patfind: Possible function found at 00000000001AF90B, pattern 24448948.
+Patfind: Possible function found at 00000000001B3BC8, pattern 247c8948.
+Patfind: Possible function found at 00000000001BB550, pattern 246c8948.
+Patfind: Possible function found at 00000000006BA32A, pattern 24448948.
+Patfind: Possible function found at 00000000006BC5A0, pattern 245c8948.
+Patfind: Possible function found at 00000000006CFDA1, pattern 245c8948.
+Patfind: Possible function found at 000000000071B73A, pattern 245c8948.
+Patfind: Possible function found at 000000000071F9F3, pattern 245c8948.
+Patfind: Possible function found at 0000000000750135, pattern 245c8948.
+Patfind: Possible function found at 0000000000A690F7, pattern 245c8948.
+Patfind: Possible function found at 0000000000AAA815, pattern 245c8948.
+Patfind: Possible function found at 0000000000DDC17B, pattern 247c8948.
+Patfind: Possible function found at 0000000000DF0D76, pattern 245c8948.
+Patfind: Possible function found at 0000000000DF100D, pattern 24748948.
+Patfind: Possible function found at 0000000000DF2809, pattern 247c8948.
+Patfind: Possible function found at 0000000000DF558E, pattern 245c8948.
+Patfind: Possible function found at 0000000000E00AA4, pattern 24448948.
+Patfind: Possible function found at 0000000000E045D0, pattern 24448948.
+Patfind: Possible function found at 0000000000E1C73D, pattern 24448948.
+Patfind: Possible function found at 0000000000E34F7B, pattern 245c8948.
+Patfind: Possible function found at 0000000000E48878, pattern 24448948.
+Patfind: Possible function found at 0000000000E4B9DB, pattern 24748948.
+Patfind: Possible function found at 0000000000E4E171, pattern 244c8948.
+Patfind: Possible function found at 0000000000E5D989, pattern 24548948.
+Patfind: Possible function found at 0000000000E6CB50, pattern 246c8948.
+Patfind: Possible function found at 0000000000E822EE, pattern 245c8948.
+Patfind: Possible function found at 0000000000E85517, pattern 244c8948.
+Patfind: Possible function found at 0000000000E87F2B, pattern 246c8948.
+Patfind: Possible function found at 0000000000E8ED1E, pattern 24548948.
+Patfind: Possible function found at 0000000000E91663, pattern 24448948.
+Patfind: Possible function found at 0000000000E9AA9E, pattern 245c8948.
+Patfind: Possible function found at 0000000000EC9185, pattern 244c8948.
+Patfind: Possible function found at 0000000000ECAA65, pattern 24748948.
+Patfind: Possible function found at 0000000000ED4350, pattern 245c8948.
+Patfind: Possible function found at 0000000000ED64C6, pattern 24448948.
+Patfind: Possible function found at 0000000000ED867C, pattern 247c8948.
+Patfind: Possible function found at 0000000000EDDF64, pattern 24448948.
+Patfind: Possible function found at 0000000000EDF7A3, pattern 245c8948.
+Patfind: Possible function found at 0000000000EE141A, pattern 246c8948.
+Patfind: Possible function found at 0000000000EE99F8, pattern 24548948.
+Patfind: Possible function found at 0000000000EF828D, pattern 24748948.
+Patfind: Possible function found at 0000000000EFAB05, pattern 247c8948.
+Patfind: Possible function found at 0000000000F037D3, pattern 244c8948.
+Patfind: Possible function found at 0000000000F058DC, pattern 247c8948.
+Patfind: Possible function found at 0000000000F1521B, pattern 247c8948.
+Patfind: Possible function found at 0000000000F292B5, pattern 244c8948.
+Patfind: Possible function found at 0000000000F2C519, pattern 245c8948.
+Patfind: Possible function found at 0000000000F43769, pattern 24748948.
+Patfind: Possible function found at 0000000000F5BF1C, pattern 24448948.
+Patfind: Possible function found at 0000000000F61358, pattern 24548948.
+Patfind: Possible function found at 0000000000F64AAB, pattern 24548948.
+Patfind: Possible function found at 0000000000F6696C, pattern 246c8948.
+Patfind: Possible function found at 0000000000F6F7F6, pattern 246c8948.
+Patfind: Found 81 functions, in 0.419736 seconds
+Flushing buffers, please wait...ok
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260213)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260213 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Waiting for the end of the auto analysis...
+The initial autoanalysis has been finished.
+
+
+------ Creating the output file.... --------
+All done, exiting...
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...
